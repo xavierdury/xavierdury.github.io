@@ -1,0 +1,174 @@
+---
+---
+@import 'http://meyerweb.com/eric/tools/css/reset/reset.css';
+@import 'http://fonts.googleapis.com/css?family=Signika:400,300,600,700';
+#page {
+	background-color: #ccc;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid #aaa;
+	border-radius: 8px;
+	width: 1024px;
+	padding: 16px;
+	margin: 0 auto;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px #ddd;
+}
+#header {
+	.container {
+		border-radius: 6px;
+		border: 1px solid #aaa;
+		padding: 16px;
+		background: #fff url('male.png') no-repeat 880px center;
+	}
+	h1 {
+		font-size: 48px;
+		line-height: 48px;
+		font-weight: bold;
+		text-shadow: 3px 3px #ccc;
+	}
+	h2 {
+		color: #444;
+		font-size: 24px;
+		line-height: 32px;
+		font-style: italic;
+		text-shadow: 1px 1px #ccc;
+	}
+}
+#content .container {
+	margin: 16px 0;
+	overflow: hidden;
+}
+#main {
+	background-color: white;
+	float: left;
+	width: 706px;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+	padding: 0 16px 16px 16px;
+	h2 {
+		font-size: 20px;
+		margin: 16px 0;
+		padding-bottom: 8px;
+		border-bottom: 1px dotted #888;
+		.legend {
+			float: right;
+			font-size: 16px;
+		}
+	}
+	h3 {
+		font-size: 16px;
+		margin: 16px 0;
+		clear: both;
+		span.function, span.school, span.competition {
+			border-bottom: 1px solid #aaa;
+		}
+		.date {
+			float: right;
+			font-style: italic;
+		}
+	}
+	dl {
+		overflow: hidden;
+	}
+	dt {
+		clear: both;
+		float: left;
+		width: 110px;
+		font-weight: bold;
+		text-align: right;
+	}
+	dd {
+		float: right;
+		width: 576px;
+	}
+}
+#aside {
+	background-color: #fff;
+	float: right;
+	width: 232px;
+	padding: 0 16px 16px 16px;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+	h2 {
+		font-size: 18px;
+		margin: 16px 0;
+		padding-bottom: 8px;
+		border-bottom: 1px dotted #888;
+	}
+	ul {
+		list-style-type: square;
+		margin-left: 24px;
+	}
+}
+#footer .container {
+	background-color: #fff;
+	clear: both;
+	padding: 8px 0;
+	text-align: center;
+	border-radius: 6px;
+	border: 1px solid #aaa;
+}
+body {
+	padding: 16px 0;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAIAAABLMMCEAAAAMklEQVQImWXKQQ0AQAjEwB4O1r8lvGDhPiQQts9JX2YCkliFU1WFU7+HJIXTvJtaDwEfF9IUpRtvzRwAAAAASUVORK5CYII=');
+	font: normal normal normal 15px/140% 'Signika', sans-serif;
+	line-height: 140%;
+	color: #222;
+	text-align: justify;
+}
+em {
+	font-style: italic;
+}
+a {
+	color: #09f;
+	text-decoration: none;
+}
+a:hover {
+	color: #f60;
+}
+abbr {
+	text-decoration: underline dotted #888;
+	cursor: help;
+}
+.novice:after, .advanced:after, .expert:after {
+	text-decoration: initial;
+	vertical-align: super;
+	font-size: 10px;
+	line-height: 6px;
+}
+.expert:after {
+	content: '+++';
+}
+.advanced:after {
+	content: '++';
+}
+.novice:after {
+	content: '+';
+}
+#skills {
+	text-align: left;
+	* {
+		overflow: visible;
+	}
+	dt {
+		margin-top: 1px;
+	}
+	li {
+		display: block;
+		background-color: #eee;
+		border: 1px solid #ccc;
+		border-radius: 2px;
+		padding: 0 4px;
+		margin: 0 1px 1px 0;
+		float: left;
+	}
+}
+#warning {
+	border: 1px solid #fbeed5;
+	background-color: #fcf8e3;
+	color: #c09853;
+	padding: 8px 16px;
+	margin-bottom: 16px;
+	text-shadow: none;
+	border-radius: 4px;
+}

@@ -1,490 +1,121 @@
+---
+---
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<!--meta http-equiv="X-UA-Compatible" content="IE=edge" /-->
-		<meta name="description" content="Xavier Dury (Curriculum Vitae)" />
-		<meta name="keywords" content="Xavier, Dury, Civil Engineer, Java, Brussels" />
-		<title>Xavier Dury</title>
-		<style type="text/css">
-			@import 'http://meyerweb.com/eric/tools/css/reset/reset.css';
-			@import 'http://fonts.googleapis.com/css?family=Signika:400,300,600,700';
-			#page {
-				background-color: #ccc;
-				background-color: rgba(0, 0, 0, 0.1);
-				border: 1px solid #aaa;
-				border-radius: 8px;
-				width: 1024px;
-				padding: 16px;
-				margin: 0 auto;
-				box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-				text-shadow: 1px 1px #ddd;
-			}
-			#header .container {
-				border-radius: 6px;
-				border: 1px solid #aaa;
-				padding: 16px;
-				background: #fff url('images/male.png') no-repeat 880px center;
-			}
-			#header h1 {
-				font-size: 48px;
-				line-height: 48px;
-				font-weight: bold;
-				text-shadow: 3px 3px #ccc;
-			}
-			#header h2 {
-				color: #444;
-				font-size: 24px;
-				line-height: 32px;
-				font-style: italic;
-				text-shadow: 1px 1px #ccc;
-			}
-			#content .container {
-				margin: 16px 0;
-				overflow: hidden;
-			}
-			#main {
-				background-color: white;
-				float: left;
-				width: 706px;
-				border-radius: 6px;
-				border: 1px solid #aaa;
-				padding: 0 16px 16px 16px;
-			}
-			#main h2 {
-				font-size: 20px;
-				margin: 16px 0;
-				padding-bottom: 8px;
-				border-bottom: 1px dotted #888;
-			}
-			#main h2 .legend {
-				float: right;
-				font-size: 16px;
-			}
-			#main h3 {
-				font-size: 16px;
-				margin: 16px 0;
-				clear: both;
-			}
-			#main h3 span.function, #main h3 span.school, #main h3 span.competition {
-				border-bottom: 1px solid #aaa;
-			}
-			#main h3 .date {
-				float: right;
-				font-style: italic;
-			}
-			#main dl {
-				overflow: hidden;
-			}
-			#main dt {
-				clear: both;
-				float: left;
-				width: 110px;
-				font-weight: bold;
-				text-align: right;
-			}
-			#main dd {
-				float: right;
-				width: 576px;
-			}
-			#aside {
-				background-color: #fff;
-				float: right;
-				width: 232px;
-				padding: 0 16px 16px 16px;
-				border-radius: 6px;
-				border: 1px solid #aaa;
-			}
-			#aside h2 {
-				font-size: 18px;
-				margin: 16px 0;
-				padding-bottom: 8px;
-				border-bottom: 1px dotted #888;
-			}
-			#aside ul {
-				list-style-type: square;
-				margin-left: 24px;
-			}
-			#footer .container {
-				background-color: #fff;
-				clear: both;
-				padding: 8px 0;
-				text-align: center;
-				border-radius: 6px;
-				border: 1px solid #aaa;
-			}
-			body {
-				padding: 16px 0;
-				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAIAAABLMMCEAAAAMklEQVQImWXKQQ0AQAjEwB4O1r8lvGDhPiQQts9JX2YCkliFU1WFU7+HJIXTvJtaDwEfF9IUpRtvzRwAAAAASUVORK5CYII=');
-				font: normal normal normal 15px/140% 'Signika', sans-serif;
-				line-height: 140%;
-				color: #222;
-				text-align: justify;
-			}
-			em {
-				font-style: italic;
-			}
-			a {
-				color: #09f;
-				text-decoration: none;
-			}
-			a:hover {
-				color: #f60;
-			}
-			abbr {
-				text-decoration: underline dotted #888;
-				cursor: help;
-			}
-			.novice:after, .advanced:after, .expert:after {
-				text-decoration: initial;
-				vertical-align: super;
-				font-size: 10px;
-				line-height: 6px;
-			}
-			.expert:after {
-				content: '+++';
-			}
-			.advanced:after {
-				content: '++';
-			}
-			.novice:after {
-				content: '+';
-			}
-			#skills {
-				text-align: left;
-			}
-			#skills * {
-				overflow: visible;
-			}
-			#skills dt {
-				margin-top: 1px;
-			}
-			#skills li {
-				display: block;
-				background-color: #eee;
-				border: 1px solid #ccc;
-				border-radius: 2px;
-				padding: 0 4px;
-				margin: 0 1px 1px 0;
-				float: left;
-			}
-			#warning {
-				border: 1px solid #fbeed5;
-				background-color: #fcf8e3;
-				color: #c09853;
-				padding: 8px 16px;
-				margin-bottom: 16px;
-				text-shadow: none;
-				border-radius: 4px;
-			}
-		</style>
+		<meta name="description" content="{{ site.data.cv.name }} (Curriculum Vitae)" />
+		<meta name="keywords" content="{{ site.data.cv.keywords }}" />
+		<title>{{ site.data.cv.name }}</title>
+		<link href="css/style.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="page">
 			<div id="header">
 				<div class="container">
-					<h1>Xavier Dury</h1>
-					<h2>Ingénieur Civil en Informatique</h2>
+					<h1>{{ site.data.cv.name }}</h1>
+					<h2>{{ site.data.cv.title }}</h2>
 				</div>
 			</div>
 			<div id="content">
 				<div class="container">
-					<!--[if lt IE 8]>
-					<div id="warning">Cette page est optimisée pour les navigateurs récents. Pour une meilleure expérience, veuillez mettre à jour votre navigateur. Merci.</div>
-					<![endif]-->
 					<div id="main">
 						<h2 id="profile">Profil</h2>
-						<p>Ingénieur Civil passionné d'informatique en général et de projets informatiques en particulier, j'ai pu exercer les rôles d'analyste fonctionnel, de développeur Java et d'architecte. Je souhaiterais désormais pouvoir m'orienter vers le rôle de chef de projet.</p>
+						<p>{{ site.data.cv.profile }}</p>
 						<h2 id="motivations">Motivations</h2>
 						<dl>
-							<dt>Apprendre</dt>
-							<dd>au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)</dd>
-							<dt>Découvrir</dt>
-							<dd>de nouveaux domaines en recherche de solutions informatiques (finance, industrie...)</dd>
-							<dt>Progresser</dt>
-							<dd>dans les différentes étapes de ma carrière et m'orienter vers le rôle de chef de projet</dd>
-							<dt>Investir</dt>
-							<dd>mon temps et mon énergie dans une société dans laquelle je m'identifie</dd>
-							<dt>Etre</dt>
-							<dd>le chef de projet que j'aurais voulu avoir</dd>
+							{% for motivation in site.data.cv.motivations %}
+							<dt>{{ motivation.verb }}</dt>
+							<dd>{{ motivation.rest }}</dd>
+							{% endfor %}
 						</dl>
 						<h2 id="experience">Expérience professionnelle</h2>
-						<h3><span class="function">Java Team Leader / Architect @ <a href="http://www.sdpsp.be">Service des Pensions du Secteur Public (SdPSP)</a></span> <span class="date">[04/2014&mdash;ce jour]</span></h3>
+						{% for experience in site.data.cv.experiences %}
+						<h3><span class="function">{{ experience.function }} @ <a href="{{ experience.company_url }}">{{ experience.company }}</a></span> <span class="date">[{{ experience.start_date }}&mdash;{{ experience.end_date | default: 'ce jour' }}]</span></h3>
 						<dl>
-							<dt>Pension Portal</dt>
+							{% for project in experience.projects %}
+							{% if project.url == nil %}
+							<dt>{{ project.name }}</dt>
+							{% else %}
+							<dt><a href="{{ project.url }}">{{ project.name }}</a></dt>
+							{% endif %}
 							<dd>
 								<ul>
-									<li>Application de centralisation et de gestion des données carrière du secteur public</li>
-									<li>Java Team Leader, Architecte</li>
-									<li>JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Eclipse, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum</li>
+									<li>{{ project.description }}</li>
+									<li>{{ project.role }}</li>
+									<li>{{ project.technologies }}</li>
 								</ul>
 							</dd>
+							{% endfor %}
 						</dl>
-						<h3><span class="function">Experienced Engineer @ <a href="http://www.akka-benelux.eu">AKKA Benelux</a></span> <span class="date">[11/2013&mdash;03/2014]</span></h3>
-						<dl>
-							<dt>ETCS P.A. Tools</dt>
-							<dd>
-								<ul>
-									<li>Applications supportant la mise en place du système ETCS sur le réseau ferroviaire belge (<a href="http://www.infrabel.be">Infrabel</a>) </li>
-									<li>Modeleur métier</li>
-									<li>JPA (EclipseLink), UML, NetBeans, Subversion, Domain-Driven Design</li>
-								</ul>
-							</dd>
-						</dl>
-						<h3><span class="function">Senior Java EE Consultant @ <a href="http://www.aubay.be">Aubay</a></span> <span class="date">[06/2007&mdash;10/2013]</span></h3>
-						<dl>
-							<dt><a href="http://capelo.be">Capelo</a></dt>
-							<dd>
-								<ul>
-									<li>Application de validation des données carrière des fonctionnaires (<a href="http://www.sigedis.be"><abbr title="Social Individuele Gegevens / Données Individuelles Sociales">SIGeDIS</abbr></a>)</li>
-									<li>Architecte</li>
-									<li>JPA, EJB 3.0, Struts 1.x, JAX-WS, GWT, Maven, JBoss, Oracle, WebLogic, Subversion</li>
-								</ul>
-							</dd>
-							<dt><a href="http://www.sigedis.be/Rapport/2009-2010/Rapport/fr/modernisation_chantier1.html">Argo</a></dt>
-							<dd>
-								<ul>
-									<li>Application de centralisation et de gestion des données carrière des travailleurs (<a href="http://www.sigedis.be"><abbr title="Social Individuele Gegevens / Données Individuelles Sociales">SIGeDIS</abbr></a>)</li>
-									<li>Développeur senior (v1.0), Architecte (v2.0)</li>
-									<li>JPA, EJB 3.0, JBoss, WS, Oracle, Spring WebFlow, BPEL, Subversion</li>
-								</ul>
-							</dd>
-							<dt>Carat</dt>
-							<dd>
-								<ul>
-									<li>Application de gestion des configurations de tests réalisés sur des boitiers électroniques embarqués sur satellites (<a href="http://www.thalesgroup.com/belgium">Thales Alenia Space</a>)</li>
-									<li>Analyse, conception, refactoring du modèle de données, coaching</li>
-									<li>Swing, JGoodies, Java Web Start, Ant, JPA, MySQL, ClearCase</li>
-								</ul>
-							</dd>
-						</dl>
-						<h3><span class="function">Java EE Lead Architect @ <a href="http://www.smals.be">Smals</a></span> <span class="date">[01/2005&mdash;05/2007]</span></h3>
-						<dl>
-							<dt><a href="https://www.smals.be/fr/realisations/projets/limosa">Limosa</a></dt>
-							<dd>
-								<ul>
-									<li>Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge</li>
-									<li>Architecture globale, coaching, implémentation de la sécurité</li>
-									<li>Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS</li>
-								</ul>
-							</dd>
-							<dt><a href="https://www.smals.be/fr/realisations/projets/tarif-telephonique-social-stts"><abbr title="Sociale Telefoontarieven / Tarifs Téléphoniques Sociaux">STTS</abbr></a></dt>
-							<dd>
-								<ul>
-									<li>Application web pour la gestion d'octrois de tarifs téléphoniques sociaux pour l'<a href="http://www.ibpt.be"><abbr title="Institut Belge des services Postaux et des Télécommunications">IBPT</abbr></a></li>
-									<li>Architecture globale, coaching</li>
-									<li>Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS</li>
-								</ul>
-							</dd>
-							<dt><a href="https://www.smals.be/fr/realisations/projets/primaweb">Primaweb</a></dt>
-							<dd>
-								<ul>
-									<li>Application web pour la gestion d'octrois de revenus d'intégration sociale et Fonds Mazout pour les <abbr title="Centre Publique d'Action Sociale">CPAS</abbr></li>
-									<li>Architecture globale, coaching</li>
-									<li>Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS</li>
-								</ul>
-							</dd>
-							<dt>iBoss</dt>
-							<dd>
-								<ul>
-									<li>Application web pour la gestion des dossiers de l'auditorat du travail (<a href="http://www.onss.be"><abbr title="Office National de Sécurité Sociale">ONSS</abbr></a>)</li>
-									<li>Architecture globale, coaching</li>
-									<li>Hibernate, Spring, Struts 1.x, JMS, WebLogic, Oracle, Ant, CVS</li>
-								</ul>
-							</dd>
-							<dt><span>Autres</span></dt>
-							<dd>
-								<ul>
-									<li>Conception des architectures projets, choix des technologies &agrave; mettre en &oelig;uvre, structure de l'arborescence projet, conception de prototypes, développement des parties critiques, supervision et coaching des développeurs (code reviews, pair-programming, mini-cours, documents de guidelines)</li>
-									<li>Développement de modèles de projets génériques et de composants réutilisables</li>
-									<li>Conception d'une application de référence de gestion de dossiers servant de base pour tous les projets cités ci-dessus, émulation d'un terminal mainframe COBOL en Swing, standardisation des types de base de la sécurité sociale (numéros de TVA, de registre national...), uniformisation des développements des services de bases internes</li>
-								</ul>
-							</dd>
-						</dl>
-						<h3><span class="function">Java EE Architect Candidate @ <a href="http://www.smals.be">Smals</a></span> <span class="date">[01/2004&mdash;12/2004]</span></h3>
-						<dl>
-							<dt><a href="https://www.smals.be/fr/realisations/projets/genesis">Genesis</a></dt>
-							<dd>
-								<ul>
-									<li>Application centralisée de gestion de dossiers pour les services d'inspection sociale</li>
-									<li>Architecture de l'application, choix des technologies, conception du modèle de données, conception de l'interface utilisateur, coaching des développeurs, distribution du travail</li>
-									<li>WebLogic, Oracle, JSP, Servlet, EJB, JMS, Hibernate, Struts, Ant, CVS, XML</li>
-								</ul>
-							</dd>
-						</dl>
-						<h3><span class="function">Functional Analyst @ <a href="http://www.smals.be">Smals</a></span> <span class="date">[04/2003&mdash;12/2003]</span></h3>
-						<dl>
-							<dt><a href="https://www.smals.be/fr/realisations/projets/genesis">Genesis</a></dt>
-							<dd>
-								<ul>
-									<li>Application centralisée de gestion de dossiers pour les services d'inspection sociale</li>
-									<li>Analyse des processus métiers et des besoins, interview des clients</li>
-								</ul>
-							</dd>
-							<dt>NatReg</dt>
-							<dd>
-								<ul>
-									<li>Application web de consultation du registre national via la <a href="http://www.ksz-bcss.fgov.be"><abbr title="Banque Carrefour de la Sécurité Sociale">BCSS</abbr></a></li>
-									<li>Analyse des besoins, définition de l'interface utilisateur</li>
-								</ul>
-							</dd>
-						</dl>
+						{% endfor %}
 						<h2 id="studies">Etudes</h2>
-						<h3><span class="school"><a href="http://www.ulb.ac.be">Université Libre de Bruxelles</a> (<a href="http://formcont.ulb.ac.be/">Formation continue</a>)</span></h3>
+						{% for study in site.data.cv.studies %}
+						<h3><span class="school"><a href="{{ study.school_url }}">{{ study.school }}</a>{% if study.faculty %} (<a href="{{ study.faculty_url }}">{{ study.faculty }}</a>){% endif %}</span></h3>
 						<dl>
-							<dt>2011&mdash;2012</dt>
-							<dd><a href="http://formcont.ulb.ac.be/formation/viewSelected/277">Certificat d'université en gestion de projets informatiques</a><br /></dd>
+							{% for degree in study.degrees %}
+							<dt>{{ degree.start_date }}{% if degree.end_date != nil %}&mdash;{{ degree.end_date}}{% endif %}</dt>
+							{% if degree.url == nil %}
+							<dd>{{ degree.title }}</dd>
+							{% else %}
+							<dd><a href="{{ degree.url }}">{{ degree.title }}</a></dd>
+							{% endif %}
+							{% endfor %}
 						</dl>
-						<h3><span class="school"><a href="http://www.cvomj.be">Centrum voor Volwassenenonderwijs Meise-Jette</a></span></h3>
-						<dl>
-							<dt>2008&mdash;2009</dt>
-							<dd>Groupe de conversation en néerlandais</dd>
-						</dl>
-						<h3><span class="school"><a href="http://www.ulb.ac.be">Université Libre de Bruxelles</a> (<a href="http://www.ulb.ac.be/facs/polytech">Faculté des sciences appliquées / Ecole polytechnique</a>)</span></h3>
-						<dl>
-							<dt><abbr title="Travail de Fin d'Etudes">TFE</abbr></dt>
-							<dd>Techniques d'intelligence artificielle dans un système distribué<br /><em>(participation à la <a href="http://www.robocup.or.jp/fukuoka">Robocup</a> 2002 à Fukuoka, Japon)</em></dd>
-							<dt>2002</dt>
-							<dd>Obtention du titre d'Ingénieur Civil en Informatique avec distinction</dd>
-							<dt>1999</dt>
-							<dd>Obtention du titre de Candidat Ingénieur Civil</dd>
-							<dt>1997</dt>
-							<dd>Obtention du certificat d'admission aux études d'Ingénieur Civil</dd>
-						</dl>
-						<h3><span class="school"><a href="http://www.collegesaintpierrejette.be/">Collège Saint-Pierre de Jette</a></span></h3>
-						<dl>
-							<dt>1997</dt>
-							<dd>Obtention du certificat d'études secondaires<br /></dd>
-							<dt>1991</dt>
-							<dd>Obtention du certificat d'études primaires</dd>
-						</dl>
+						{% endfor %}
 						<h2 id="competitions">Compétitions</h2>
-						<h3><span class="competition"><a href="http://www.transformabxl.be/agenda/event/hackathon-open-data-brussels">Open Data Brussels Hackathon</a></span> <span class="date">[17&mdash;18/10/2014]</span></h3>
+						{% for competition in site.data.cv.competitions %}
+						<h3><span class="competition"><a href="{{ competition.url }}">{{ competition.name }}</a></span> <span class="date">[{{ competition.start_date }}&mdash;{{ competition.end_date }}]</span></h3>
 						<dl>
-							<dt>Lauréat</dt>
-							<dd>Prix du prototype croisant le plus grand nombre de jeux de données<br /></dd>
+							{% for achievement in competition.achievements %}
+							<dt>{{ achievement.rank }}</dt>
+							<dd>{{ achievement.title }}</dd>
+							{% endfor %}
 						</dl>
+						{% endfor %}
 						<h2 id="languages">Langues</h2>
 						<dl>
-							<dt>Français</dt>
-							<dd>Langue maternelle</dd>
-							<dt>Néerlandais</dt>
-							<dd>Bonne connaissance écrite et orale</dd>
-							<dt>Anglais</dt>
-							<dd>Bonne connaissance écrite et orale</dd>
-							<dt>Allemand</dt>
-							<dd>Connaissance élémentaire <em>(2 ans de cours du soir)</em></dd>
+							{% for language in site.data.cv.languages %}
+							<dt>{{ language.name }}</dt>
+							<dd>{{ language.level }}</dd>
+							{% endfor %}
 						</dl>
 						<h2 id="it">Informatique<span class="legend"><span class="expert">expert</span> <span class="advanced">avancé</span> <span class="novice">novice</span></span></h2>
 						<dl id="skills">
-							<dt>Intérêts</dt>
+							{% for skill in site.data.cv.skills %}
+							<dt>{{ skill.group }}</dt>
 							<dd>
 								<ul>
-									<li>Project Management (Agile, Scrum, Lean, <abbr title="Rational Unified Process">RUP</abbr>, <abbr title="Project Management Institute">PMI</abbr>, Prince2)</li>
-									<li>Open Source Software</li>
-									<li><abbr title="Enterprise Service Bus">ESB</abbr> (Camel)</li>
-									<li><abbr title="Rapid Application Development">RAD</abbr></li>
-									<li>Clean <abbr title="Application Programming Interface">API</abbr> Design</li>
+									{% for item in skill.items %}
+									{% if item.abbr == nil %}
+									<li class="{{ item.level }}">{{ item.name }}</li>
+									{% else %}
+									<li class="{{ item.level }}"><abbr title="{{ item.abbr }}">{{ item.name }}</abbr></li>
+									{% endif %}
+									{% endfor %}
 								</ul>
 							</dd>
-							<dt>Design</dt>
-							<dd>
-								<ul>
-									<li><abbr title="Unified Modeling Language">UML</abbr></li>
-									<li>Patterns (Design / <abbr title="Gang of Four">GoF</abbr>, Enterprise, Core Java <abbr title="Enterprise Edition">EE</abbr>, Integration)</li>
-									<li>Object-Oriented</li>
-									<li>Test-Driven</li>
-									<li>Database Design</li>
-									<li>Aspect-Oriented</li>
-									<li>Domain-Driven</li>
-									<li>Event-Driven</li>
-								</ul>
-							</dd>
-							<dt>Technologies</dt>
-							<dd>
-								<ul>
-									<li class="expert">Java</li>
-									<li class="expert">Hibernate</li>
-									<li class="expert">Spring</li>
-									<li class="expert">Struts</li>
-									<li class="advanced"><abbr title="Google Web Toolkit">GWT</abbr></li>
-									<li class="expert">JUnit</li>
-									<li class="advanced">Swing</li>
-									<li class="expert">Servlet</li>
-									<li class="expert"><abbr title="Enterprise Java Beans">EJB</abbr></li>
-									<li class="expert"><abbr title="Java Persistence API">JPA</abbr></li>
-									<li class="advanced"><abbr title="Context &amp; Dependency Injection">CDI</abbr></li>
-									<li class="advanced"><abbr title="Java Messaging System">JMS</abbr></li>
-									<li class="advanced"><abbr title="Java Server Faces">JSF</abbr></li>
-									<li class="advanced"><abbr title="Java API for RESTFul Services">JAX-RS</abbr> (<abbr title="REpresentational State Transfer">REST</abbr>)</li>
-									<li class="advanced"><abbr title="Java API for XML Web Services">JAX-WS</abbr> (<abbr title="Simple Object Access Protocol">SOAP</abbr>)</li>
-									<li class="expert"><abbr title="Structured Query Language">SQL</abbr></li>
-									<li class="advanced">JavaScript (JQuery, AngularJS)</li>
-									<li class="expert"><abbr title="(eXtensible) HyperText Markup Language">(X)HTML</abbr></li>
-									<li class="advanced"><abbr title="Cascading StyleSheet">CSS</abbr></li>
-									<li class="novice">Python</li>
-									<li class="expert"><abbr title="eXtensible Markup Language">XML</abbr></li>
-									<li class="advanced"><abbr title="eXtensible Stylesheet Language Transformations">XSLT</abbr> / <abbr title="eXtensible Stylesheet Language Formatting Objects">XSL-FO</abbr></li>
-									<li class="advanced"><abbr title="XML Schema Definition">XSD</abbr></li>
-								</ul>
-							</dd>
-							<dt>Outils</dt>
-							<dd>
-								<ul>
-									<li class="expert">Eclipse</li>
-									<li class="novice">IntelliJ</li>
-									<li class="novice">NetBeans</li>
-									<li class="expert">Ant</li>
-									<li class="expert">Maven</li>
-									<li class="advanced">Subversion</li>
-									<li class="advanced"><abbr title="Concurrent Versions System">CVS</abbr></li>
-									<li class="novice">Git</li>
-									<li class="novice">JIRA</li>
-									<li class="novice">Mantis</li>
-									<li class="novice">Trac</li>
-									<li class="novice">Hudson / Jenkins</li>
-									<li class="novice">Gerrit</li>
-									<li class="novice">GitLab</li>
-								</ul>
-							</dd>
-							<dt>Serveurs</dt>
-							<dd>
-								<ul>
-									<li>JBoss / WildFly</li>
-									<li>Tomcat</li>
-									<li>Apache <abbr title="HyperText Transfer Protocol daemon">HTTPd</abbr></li>
-									<li>MySQL</li>
-									<li>Oracle DB</li>
-									<li>WebLogic</li>
-									<li>OpenEJB / TomEE</li>
-								</ul>
-							</dd>
+							{% endfor %}
 						</dl>
 					</div>
 					<div id="aside">
-						<h2>Contact</h2>
+						{% for meta in site.data.cv.meta %}
+						<h2>{{ meta.name }}</h2>
 						<ul>
-							<li><a href="tel:+32486535020">+32&ndash;(0)486&ndash;535020</a></li>
-							<li><a href="mailto:jobs@xavierdury.net">jobs@xavierdury.net</a></li>
+							{% for item in meta.items %}
+							{% if item.url == nil %}
+							<li>{{ item.title }}</li>
+							{% else %}
+							<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+							{% endif %}
+							{% endfor %}
 						</ul>
-						<h2>Informations générales</h2>
-						<ul>
-							<li>Nationalités belge et française</li>
-							<li>Né le 8 octobre 1979</li>
-							<li>Permis de conduire B</li>
-							<li>Situé en région bruxelloise</li>
-						</ul>
-						<h2>Liens</h2>
-						<ul>
-							<li><a href="http://www.linkedin.com/xdury">LinkedIn</a></li>
-							<li><a href="documents/cv.docx">CV en format Word&reg;</a></li>
-							<li><a href="documents/cv.pdf">CV en format Acrobat&reg;</a></li>
-						</ul>
+						{% endfor %}
 					</div>
 				</div>
 			</div>
 			<div id="footer">
-				<div class="container">&copy; 2002&mdash;2015 Xavier Dury (dernière mise à jour le 12 mars 2015)</div>
+				<div class="container">&copy; {{ site.data.cv.inception_year }}&mdash;{{ site.time | date: '%Y' }} {{ site.data.cv.name }}</div>
 			</div>
 		</div>
 	</body>

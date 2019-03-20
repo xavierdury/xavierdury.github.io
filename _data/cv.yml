@@ -1,0 +1,316 @@
+name: Xavier Dury
+inception_year: 2002
+keywords: Xavier, Dury, Civil Engineer, Java, Brussels
+title: Ingénieur Civil en Informatique
+profile: Ingénieur Civil passionné d'informatique en général et de projets informatiques en particulier, j'ai pu exercer les rôles d'analyste fonctionnel, de développeur Java et d'architecte. Je souhaiterais désormais pouvoir m'orienter vers le rôle de chef de projet.
+meta:
+- name: Contact
+  items:
+  - title: +32–(0)486–535020
+    url: tel:+32486535020
+  - title: jobs@xavierdury.net
+    url: mailto:jobs@xavierdury.net
+- name: Informations générales
+  items:
+  - title: Nationalités belge et française
+  - title: Né en 1979
+  - title: Permis de conduire B
+  - title: Situé en périphérie bruxelloise
+- name: Liens
+  items:
+  - title: LinkedIn
+    url: http://www.linkedin.com/xdury
+  - title: CV en PDF
+    url: documents/cv.pdf
+motivations:
+- verb: Apprendre
+  rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
+- verb: Découvrir
+  rest: de nouveaux domaines en recherche de solutions informatiques (finance, industrie...)
+- verb: Progresser
+  rest: dans les différentes étapes de ma carrière et m'orienter vers le rôle de chef de projet
+- verb: Investir
+  rest: mon temps et mon énergie dans une société dans laquelle je m'identifie
+- verb: Etre
+  rest: le chef de projet que j'aurais voulu avoir
+experiences:
+- function: Java Team Leader / Architecte
+  company: Service des Pensions du Secteur Public (SdPSP)
+  company_url: http://www.sdpsp.be
+  start_date: 2014-04
+  projects:
+  - name: Pension Portal
+    description: Application de centralisation et de gestion des données carrière du secteur public
+    role: Java Team Leader, Architecte
+    technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Eclipse, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
+- function: Experienced Engineer
+  company: AKKA Benelux
+  company_url: http://www.akka-benelux.eu
+  start_date: 2013-11
+  end_date: 2014-03
+  projects:
+  - name: ETCS P.A. Tools
+    description: Application supportant la mise en place du système ETCS sur le réseau ferroviaire belge
+    role: Modeleur métier
+    technologies: JPA (EclipseLink), UML, NetBeans, Subversion, Domain-Driven Design
+    client: Infrabel
+    client_url: http://www.infrabel.be
+- function: Senior Java EE Consultant
+  company: Aubay
+  company_url: http://www.aubay.be
+  start_date: 2007-06
+  end_date: 2013-10
+  projects:
+  - name: Capelo
+    description: Application de validation des données carrière des fonctionnaires
+    role: Architecte
+    technologies: JPA, EJB 3.0, Struts 1.x, JAX-WS, GWT, Maven, JBoss, Oracle, WebLogic, Subversion
+    client: SIGeDIS
+    client_url: http://www.sigedis.be
+    url: http://capelo.be
+  - name: Argo
+    description: Application de centralisation et de gestion des données carrière des travailleurs
+    role: Développeur senior (v1.0), Architecte (v2.0)
+    technologies: JPA, EJB 3.0, JBoss, WS, Oracle, Spring WebFlow, BPEL, Subversion
+    client: SIGeDIS
+    client_url: http://www.sigedis.be
+    url: http://www.sigedis.be/Rapport/2009-2010/Rapport/fr/modernisation_chantier1.html
+  - name: Carat
+    description: Application de gestion des configurations de tests réalisés sur des boitiers électroniques embarqués sur satellites
+    role: Analyse, conception, refactoring du modèle de données, coaching
+    technologies: Swing, JGoodies, Java Web Start, Ant, JPA, MySQL, ClearCase
+    client: Thales Alenia Space
+    client_url: http://www.sigedis.be
+    url: http://www.thalesgroup.com/belgium
+- function: Java EE Lead Architect
+  company: Smals
+  company_url: http://www.smals.be
+  start_date: 2005-01
+  end_date: 2007-05
+  projects:
+  - name: Limosa
+    description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
+    role: Architecture globale, coaching, implémentation de la sécurité
+    technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
+    url: https://www.smals.be/fr/realisations/projets/limosa
+  - name: STTS
+    description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
+    role: Architecture globale, coaching, implémentation de la sécurité
+    technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
+    url: https://www.smals.be/fr/realisations/projets/tarif-telephonique-social-stts
+  - name: Primaweb
+    description: Application web pour la gestion d'octrois de tarifs téléphoniques sociaux 
+    role: Architecture globale, coaching
+    technologies: Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS
+    client: CPAS
+    url: https://www.smals.be/fr/realisations/projets/primaweb
+  - name: iBoss
+    description: Application web pour la gestion des dossiers de l'auditorat du travail
+    role: Architecture globale, coaching
+    technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
+    client: ONSS
+    client_url: http://www.onss.be
+  - name: Autres
+    description: Conception des architectures projets, choix des technologies à mettre en œuvre, structure de l'arborescence projet, conception de prototypes, développement des parties critiques, supervision et coaching des développeurs (code reviews, pair-programming, mini-cours, documents de guidelines)
+    role: Développement de modèles de projets génériques et de composants réutilisables
+    technologies: Conception d'une application de référence de gestion de dossiers servant de base pour tous les projets cités ci-dessus, émulation d'un terminal mainframe COBOL en Swing, standardisation des types de base de la sécurité sociale (numéros de TVA, de registre national...), uniformisation des développements des services de bases internes
+- function: Java EE Architect Candidate
+  company: Smals
+  company_url: http://www.smals.be
+  start_date: 2004-01
+  end_date: 2004-12
+  projects:
+  - name: Genesis
+    description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
+    role: Architecture de l'application, choix des technologies, conception du modèle de données, conception de l'interface utilisateur, coaching des développeurs, distribution du travail
+    technologies: WebLogic, Oracle, JSP, Servlet, EJB, JMS, Hibernate, Struts, Ant, CVS, XML
+    url: https://www.smals.be/fr/realisations/projets/genesis
+- function: Functional Analyst
+  company: Smals
+  company_url: http://www.smals.be
+  start_date: 2003-04
+  end_date: 2003-12
+  projects:
+  - name: Genesis
+    description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
+    role: Analyse des processus métiers et des besoins, interview des clients
+    technologies: UML, Catalyst
+    url: https://www.smals.be/fr/realisations/projets/genesis
+  - name: NatReg
+    description: Application web de consultation du registre national
+    role: Analyse des besoins, définition de l'interface utilisateur
+    technologies: UML, Catalyst
+studies:
+- school: Université Libre de Bruxelles
+  school_url: http://www.ulb.ac.be
+  faculty: Formation continue
+  faculty_url: http://formcont.ulb.ac.be
+  degrees:
+  - title: Certificat d'université en gestion de projets informatiques
+    url: http://formcont.ulb.ac.be/formation/viewSelected/277
+    start_date: 2011
+    end_date: 2012
+- school: Centrum voor Volwassenenonderwijs Meise-Jette
+  school_url: http://www.cvomj.be
+  degrees:
+  - title: Groupe de conversation en néerlandais
+    start_date: 2008
+    end_date: 2009
+- school: Université Libre de Bruxelles
+  school_url: http://www.ulb.ac.be
+  faculty: Faculté des sciences appliquées / Ecole polytechnique
+  faculty_url: http://www.ulb.ac.be/facs/polytech
+  degrees:
+  - title: Techniques d'intelligence artificielle dans un système distribué (Robocup 2002 Fukuoka, Japon)
+    start_date: TFE
+  - title: Obtention du titre d'Ingénieur Civil en Informatique avec distinction
+    start_date: 2002
+  - title: Obtention du titre de Candidat Ingénieur Civil
+    start_date: 1999
+  - title: Obtention du certificat d'admission aux études d'Ingénieur Civil
+    start_date: 1997
+- school: Collège Saint-Pierre de Jette
+  school_url: http://www.collegesaintpierrejette.be
+  degrees:
+  - title: Obtention du certificat d'études secondaires
+    start_date: 1997
+  - title: Obtention du certificat d'études primaires
+    start_date: 1991
+competitions:
+- name: Open Data Brussels Hackathon
+  url: http://www.transformabxl.be/agenda/event/hackathon-open-data-brussels
+  start_date: 2014-10-17
+  end_date: 2014-10-18
+  achievements:
+  - rank: Lauréat
+    title: Prix du prototype croisant le plus grand nombre de jeux de données
+languages:
+- name: Français
+  level: Langue maternelle
+- name: Néerlandais
+  level: Bonne connaissance écrite et orale
+- name: Anglais
+  level: Bonne connaissance écrite et orale
+- name: Allemand
+  level: Connaissance élémentaire
+skills:
+- group: Intérêts
+  items:
+  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
+  - name: Open Source Software
+  - name: Rapid Application Development
+  - name: Clean Design
+- group: Design
+  items:
+  - name: UML
+    abbr: Unified Modeling Language
+  - name: Patterns
+  - name: Object-Oriented
+  - name: Test-Driven
+  - name: Database Design
+  - name: Aspect-Oriented
+  - name: Domain-Driven
+  - name: Event-Driven
+- group: Technologies
+  items:
+  - name: Java
+    level: expert
+  - name: Hibernate
+    level: expert
+  - name: Spring
+    level: expert
+  - name: Struts
+    level: expert
+  - name: GWT
+    level: advanced
+    abbr: Google Web Toolkit
+  - name: JUnit
+    level: expert
+  - name: Swing
+    level: advanced
+  - name: Servlet
+    level: expert
+  - name: EJB
+    level: expert
+    abbr: Enterprise Java Beans
+  - name: JPA
+    level: expert
+    abbr: Java Persistence API
+  - name: CDI
+    level: expert
+    abbr: Context & Dependency Injection
+  - name: JMS
+    level: advanced
+    abbr: Java Messaging System
+  - name: JSF
+    level: advanced
+    abbr: Java Server Faces
+  - name: JAX-RS
+    level: advanced
+    abbr: Java API for RESTFul Services
+  - name: JAX-WS
+    level: advanced
+    abbr: Java API for XML Web Services
+  - name: SQL
+    level: expert
+    abbr: Structured Query Language
+  - name: JavaScript
+    level: advanced
+  - name: HTML
+    level: expert
+    abbr: HyperText Markup Language
+  - name: CSS
+    level: advanced
+    abbr: Cascading StyleSheet
+  - name: Python
+    level: novice
+  - name: XML
+    level: expert
+    abbr: eXtensible Markup Language
+  - name: XSLT
+    level: advanced
+    abbr: eXtensible Stylesheet Language Transformations
+  - name: XSD
+    level: advanced
+    abbr: XML Schema Definition
+- group: Outils
+  items:
+  - name: Eclipse
+    level: expert
+  - name: IntelliJ
+    level: novice
+  - name: NetBeans
+    level: novice
+  - name: Ant
+    level: expert
+  - name: Maven
+    level: expert
+  - name: Subversion
+    level: advanced
+  - name: CVS
+    level: advanced
+    abbr: Concurrent Versions System
+  - name: Git
+    level: advanced
+  - name: JIRA
+    level: novice
+  - name: Mantis
+    level: novice
+  - name: Trac
+    level: novice
+  - name: Jenkins
+    level: advanced
+  - name: Gerrit
+    level: advanced
+  - name: GitLab
+    level: advanced
+- group: Serveurs
+  items:
+  - name: JBoss / WildFly
+  - name: Tomcat
+  - name: Apache HTTPd
+    abbr: HyperText Transfer Protocol daemon
+  - name: MySQL
+  - name: Oracle DB
+  - name: WebLogic
+  - name: OpenEJB / TomEE
