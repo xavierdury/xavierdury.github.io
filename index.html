@@ -29,7 +29,7 @@
 							<dd>{{ motivation.rest }}</dd>
 							{% endfor %}
 						</dl>
-						<h2 id="experience">Expérience professionnelle</h2>
+						<h2 id="experience">ExpÃ©rience professionnelle</h2>
 						{% for experience in site.data.cv.experiences %}
 						<h3><span class="function">{{ experience.function }} @ <a href="{{ experience.company_url }}">{{ experience.company }}</a></span> <span class="date">[{{ experience.start_date }}&mdash;{{ experience.end_date | default: 'ce jour' }}]</span></h3>
 						<dl>
@@ -63,7 +63,7 @@
 							{% endfor %}
 						</dl>
 						{% endfor %}
-						<h2 id="competitions">Compétitions</h2>
+						<h2 id="competitions">CompÃ©titions</h2>
 						{% for competition in site.data.cv.competitions %}
 						<h3><span class="competition"><a href="{{ competition.url }}">{{ competition.name }}</a></span> <span class="date">[{{ competition.start_date }}&mdash;{{ competition.end_date }}]</span></h3>
 						<dl>
@@ -80,7 +80,7 @@
 							<dd>{{ language.level }}</dd>
 							{% endfor %}
 						</dl>
-						<h2 id="it">Informatique<span class="legend"><span class="expert">expert</span> <span class="advanced">avancé</span> <span class="novice">novice</span></span></h2>
+						<h2 id="it">Informatique<span class="legend"><span class="expert">expert</span> <span class="advanced">avancÃ©</span> <span class="novice">novice</span></span></h2>
 						<dl id="skills">
 							{% for skill in site.data.cv.skills %}
 							<dt>{{ skill.group }}</dt>
