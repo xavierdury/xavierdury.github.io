@@ -94,12 +94,12 @@ experiences:
     technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
     url: https://www.smals.be/fr/realisations/projets/limosa
   - name: STTS
-    description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
-    role: Architecture globale, coaching, implémentation de la sécurité
-    technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
+    description: Application web pour la gestion d'octrois de tarifs téléphoniques sociaux pour l'IBPT
+    role: Architecture globale, coaching
+    technologies: Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS
     url: https://www.smals.be/fr/realisations/projets/tarif-telephonique-social-stts
   - name: Primaweb
-    description: Application web pour la gestion d'octrois de tarifs téléphoniques sociaux 
+    description: Application web pour la gestion d'octrois de revenus d'intégration sociale et Fonds Mazout (CPAS)
     role: Architecture globale, coaching
     technologies: Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS
     client: CPAS

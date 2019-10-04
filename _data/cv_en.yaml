@@ -1,8 +1,8 @@
 name: Xavier Dury
 inception_year: 2002
 keywords: Xavier, Dury, Civil Engineer, Java, Brussels
-title: Ingénieur Civil en Informatique
-profile: Ingénieur Civil passionné d'informatique en général et de projets informatiques en particulier, j'ai pu exercer les rôles d'analyste fonctionnel, de développeur Java et d'architecte. Je souhaiterais désormais pouvoir m'orienter vers le rôle de chef de projet.
+title: Civil Engineer in Computer Science
+profile: I am a civil engineer with more than 15 years of experience working on IT projects (mostly in Java) as analyst, developer and architect. I have a good grasp of technology and trained for project management at the University of Brussels. I prefer working as an employee rather than a contractor as I really like to understand the domain I am working in and favor long-term commitment on projects where I can participate in design, implementation and maintenance. I lean toward working on meaningful projects which benefit the community (healthcare, social security, public transportation, scientific research, etc.). I am a big proponent of open source solutions for which I try to contribute back.
 meta:
 - name: Contact
   items:
@@ -10,17 +10,17 @@ meta:
     url: tel:+32486535020
   - title: jobs@xavierdury.net
     url: mailto:jobs@xavierdury.net
-- name: Informations générales
+- name: Personal details
   items:
-  - title: Nationalités belge et française
-  - title: Né en 1979
-  - title: Permis de conduire B
-  - title: Situé en périphérie bruxelloise
-- name: Liens
+  - title: Belgian and French
+  - title: Born in 1979
+  - title: Driver license B
+  - title: Located in the suburbs of Brussels
+- name: Links
   items:
   - title: LinkedIn
-    url: http://www.linkedin.com/xdury
-  - title: CV en PDF
+    url: https://linkedin.com/in/xavierdury
+  - title: Resyle in PDF format
     url: documents/cv.pdf
 motivations:
 - verb: Apprendre
@@ -34,14 +34,14 @@ motivations:
 - verb: Etre
   rest: le chef de projet que j'aurais voulu avoir
 experiences:
-- function: Java Team Leader / Architecte
-  company: Service des Pensions du Secteur Public (SdPSP)
-  company_url: http://www.sdpsp.be
+- function: Java Team Leader / Architect
+  company: Federal Pension Service (SFPD)
+  company_url: http://sfpd.fgov.be
   start_date: 2014-04
   projects:
   - name: Pension Portal
-    description: Application de centralisation et de gestion des données carrière du secteur public
-    role: Java Team Leader, Architecte
+    description: Public sector career data centralization and management application
+    role: Java Team Leader, Architect
     technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Eclipse, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
 - function: Experienced Engineer
   company: AKKA Benelux
@@ -50,8 +50,8 @@ experiences:
   end_date: 2014-03
   projects:
   - name: ETCS P.A. Tools
-    description: Application supportant la mise en place du système ETCS sur le réseau ferroviaire belge
-    role: Modeleur métier
+    description: Application supporting the implementation of the ETCS system on the Belgian rail network
+    role: Business modeler
     technologies: JPA (EclipseLink), UML, NetBeans, Subversion, Domain-Driven Design
     client: Infrabel
     client_url: http://www.infrabel.be
@@ -62,22 +62,22 @@ experiences:
   end_date: 2013-10
   projects:
   - name: Capelo
-    description: Application de validation des données carrière des fonctionnaires
-    role: Architecte
+    description: Application for validating civil servants' career data
+    role: Architect
     technologies: JPA, EJB 3.0, Struts 1.x, JAX-WS, GWT, Maven, JBoss, Oracle, WebLogic, Subversion
     client: SIGeDIS
     client_url: http://www.sigedis.be
     url: http://capelo.be
   - name: Argo
-    description: Application de centralisation et de gestion des données carrière des travailleurs
-    role: Développeur senior (v1.0), Architecte (v2.0)
+    description: Application for centralizing and managing employee career data
+    role: Senio developer (v1.0), Architect (v2.0)
     technologies: JPA, EJB 3.0, JBoss, WS, Oracle, Spring WebFlow, BPEL, Subversion
     client: SIGeDIS
     client_url: http://www.sigedis.be
     url: http://www.sigedis.be/Rapport/2009-2010/Rapport/fr/modernisation_chantier1.html
   - name: Carat
-    description: Application de gestion des configurations de tests réalisés sur des boitiers électroniques embarqués sur satellites
-    role: Analyse, conception, refactoring du modèle de données, coaching
+    description: Application for managing test configurations performed on electronic boxes embedded on satellites
+    role: Analyse, design, data-model refactoring, coaching
     technologies: Swing, JGoodies, Java Web Start, Ant, JPA, MySQL, ClearCase
     client: Thales Alenia Space
     client_url: http://www.sigedis.be
@@ -89,31 +89,31 @@ experiences:
   end_date: 2007-05
   projects:
   - name: Limosa
-    description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
-    role: Architecture globale, coaching, implémentation de la sécurité
+    description: Web application for the declaration of posting of foreign workers on Belgian territory
+    role: Global architecture, coaching, security
     technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
     url: https://www.smals.be/fr/realisations/projets/limosa
   - name: STTS
-    description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
-    role: Architecture globale, coaching, implémentation de la sécurité
-    technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
+    description: Web application for the management of social telephone tariff grants for BIPT
+    role: Global architecture, coaching
+    technologies: Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS
     url: https://www.smals.be/fr/realisations/projets/tarif-telephonique-social-stts
   - name: Primaweb
-    description: Application web pour la gestion d'octrois de tarifs téléphoniques sociaux 
-    role: Architecture globale, coaching
+    description: Web application for the management of social integration income grants and the Fuel Fund (CPAS)
+    role: Global architecture, coaching
     technologies: Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS
     client: CPAS
     url: https://www.smals.be/fr/realisations/projets/primaweb
   - name: iBoss
-    description: Application web pour la gestion des dossiers de l'auditorat du travail
-    role: Architecture globale, coaching
+    description: Web application for the management of labour audit files
+    role: Global architecture, coaching
     technologies: Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS
     client: ONSS
     client_url: http://www.onss.be
-  - name: Autres
-    description: Conception des architectures projets, choix des technologies à mettre en œuvre, structure de l'arborescence projet, conception de prototypes, développement des parties critiques, supervision et coaching des développeurs (code reviews, pair-programming, mini-cours, documents de guidelines)
-    role: Développement de modèles de projets génériques et de composants réutilisables
-    technologies: Conception d'une application de référence de gestion de dossiers servant de base pour tous les projets cités ci-dessus, émulation d'un terminal mainframe COBOL en Swing, standardisation des types de base de la sécurité sociale (numéros de TVA, de registre national...), uniformisation des développements des services de bases internes
+  - name: Other
+    description: Design of project architectures, choice of technologies to be implemented, structure of the project tree, design of prototypes, development of critical parts, supervision and coaching of developers (code reviews, peer-programming, mini-courses, guidelines documents)
+    role: Development of generic project models and reusable components
+    technologies: Design of a reference file management application serving as a basis for all the above-mentioned projects, emulation of a COBOL mainframe terminal in Swing, standardization of the basic types of social security (VAT numbers, national register numbers, etc.), standardization of the development of internal basic services
 - function: Java EE Architect Candidate
   company: Smals
   company_url: http://www.smals.be
@@ -172,9 +172,9 @@ studies:
 - school: Collège Saint-Pierre de Jette
   school_url: http://www.collegesaintpierrejette.be
   degrees:
-  - title: Obtention du certificat d'études secondaires
+  - title: High school certificate
     start_date: 1997
-  - title: Obtention du certificat d'études primaires
+  - title: Primary school certificate
     start_date: 1991
 competitions:
 - name: Open Data Brussels Hackathon
@@ -182,19 +182,19 @@ competitions:
   start_date: 2014-10-17
   end_date: 2014-10-18
   achievements:
-  - rank: Lauréat
-    title: Prix du prototype croisant le plus grand nombre de jeux de données
+  - rank: Laureate
+    title: Price of the prototype crossing the largest number of data sets
 languages:
-- name: Français
-  level: Langue maternelle
-- name: Néerlandais
-  level: Bonne connaissance écrite et orale
-- name: Anglais
-  level: Bonne connaissance écrite et orale
-- name: Allemand
-  level: Connaissance élémentaire
+- name: French
+  level: Native or bilingual proficiency
+- name: Dutch
+  level: Limited working proficiency
+- name: English
+  level: Professional working proficiency
+- name: German
+  level: Elementary proficiency
 skills:
-- group: Intérêts
+- group: Interests
   items:
   - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
   - name: Open Source Software
@@ -273,7 +273,7 @@ skills:
   - name: XSD
     level: advanced
     abbr: XML Schema Definition
-- group: Outils
+- group: Tools
   items:
   - name: Eclipse
     level: expert
@@ -304,7 +304,7 @@ skills:
     level: advanced
   - name: GitLab
     level: advanced
-- group: Serveurs
+- group: Servers
   items:
   - name: JBoss / WildFly
   - name: Tomcat
