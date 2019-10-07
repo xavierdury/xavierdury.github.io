@@ -15,7 +15,7 @@ meta:
   - title: Belgian and French
   - title: Born in 1979
   - title: Driver license (category B)
-  - title: Located near Brussels
+  - title: Located in Brussels' area
 - name: Links
   items:
   - title: LinkedIn
@@ -161,15 +161,18 @@ studies:
   faculty: Faculty of Applied Sciences / Polytechnic School
   faculty_url: http://www.ulb.ac.be/facs/polytech
   degrees:
-  - title: Obtained the title of Civil Engineer in Computer Science with distinction
-    start_date: 2002
+  - title: Mastered as Civil Engineer in Computer Science (obtained with distinction)
+    start_date: 1997
+    end_date: 2002
 - school: Collège Saint-Pierre de Jette
   school_url: http://www.collegesaintpierrejette.be
   degrees:
-  - title: High school certificate
-    start_date: 1997
-  - title: Primary school certificate
+  - title: High school
     start_date: 1991
+    end_date: 1997
+  - title: Primary school
+    start_date: 1985
+    end_date: 1991
 competitions:
 - name: Open Data Brussels Hackathon
   url: http://www.transformabxl.be/agenda/event/hackathon-open-data-brussels
@@ -193,11 +196,13 @@ skills:
   - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
   - name: Open Source Software
   - name: Rapid Application Development
-  - name: Clean Design
+  - name: Clean Design / Hexagonal Architecture
+  - name: Hypermedia / RESTful APIs
 - group: Design
   items:
   - name: UML
     abbr: Unified Modeling Language
+  - name: C4 Model
   - name: Patterns
   - name: Object-Oriented
   - name: Test-Driven
