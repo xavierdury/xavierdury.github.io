@@ -2,7 +2,7 @@ name: Xavier Dury
 inception_year: 2002
 keywords: Xavier, Dury, Civil Engineer, Java, Brussels
 title: Civil Engineer in Computer Science
-profile: I am a civil engineer with more than 15 years of experience working on IT projects (mostly in Java) as analyst, developer and architect. I have a good grasp of technology and trained for project management at the University of Brussels. I prefer working as an employee rather than a contractor as I really like to understand the domain I am working in and favor long-term commitment on projects where I can participate in design, implementation and maintenance. I lean toward working on meaningful projects which benefit the community (healthcare, social security, public transportation, scientific research, etc.). I am a big proponent of open source solutions for which I try to contribute back.
+profile: I am a civil engineer with more than 15 years of professional experience working on IT projects (mostly in Java) as analyst, developer and architect. I have a good grasp of technology and trained for project management at the University of Brussels. I prefer working as an employee rather than a contractor as I really like to understand the domain I am working in and favor long-term commitment on projects where I can participate in design, implementation and maintenance. I lean toward working on meaningful projects which benefit the community (healthcare, social security, public transportation, public services/e-government, scientific research, etc.). I am a big proponent of open source solutions for which I try to contribute back.
 meta:
 - name: Contact
   items:
@@ -14,14 +14,14 @@ meta:
   items:
   - title: Belgian and French
   - title: Born in 1979
-  - title: Driver license B
+  - title: Driver license (category B)
   - title: Located near Brussels
 - name: Links
   items:
   - title: LinkedIn
     url: https://linkedin.com/in/xavierdury
   - title: Resume in PDF format
-    url: documents/cv.pdf
+    url: ../documents/cv.pdf
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -42,7 +42,7 @@ experiences:
   - name: Pension Portal
     description: Public sector career data centralization and management application
     role: Java Team Leader, Architect
-    technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Eclipse, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
+    technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
 - function: Experienced Engineer
   company: AKKA Benelux
   company_url: http://www.akka-benelux.eu
@@ -62,7 +62,7 @@ experiences:
   end_date: 2013-10
   projects:
   - name: Capelo
-    description: Application for validating civil servants' career data
+    description: Application for collecting and validating civil servants' career data
     role: Architect
     technologies: JPA, EJB 3.0, Struts 1.x, JAX-WS, GWT, Maven, JBoss, Oracle, WebLogic, Subversion
     client: SIGeDIS
@@ -113,7 +113,7 @@ experiences:
   - name: Other
     description: Design of project architectures, choice of technologies to be implemented, structure of the project tree, design of prototypes, development of critical parts, supervision and coaching of developers (code reviews, peer-programming, mini-courses, guidelines documents)
     role: Development of generic project models and reusable components
-    technologies: Design of a reference file management application serving as a basis for all the above-mentioned projects, emulation of a COBOL mainframe terminal in Swing, standardization of the basic types of social security (VAT numbers, national register numbers, etc.), standardization of the development of internal basic services
+    technologies: Design of a reference dossier management application serving as a basis for all the above-mentioned projects, emulation of a COBOL mainframe terminal in Swing, standardization of the basic types of social security (VAT numbers, national register numbers, etc.), standardization of the development of internal basic services
 - function: Java EE Architect Candidate
   company: Smals
   company_url: http://www.smals.be
@@ -121,8 +121,8 @@ experiences:
   end_date: 2004-12
   projects:
   - name: Genesis
-    description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
-    role: Architecture de l'application, choix des technologies, conception du modèle de données, conception de l'interface utilisateur, coaching des développeurs, distribution du travail
+    description: Centralized dossier management application for social inspection services
+    role: Application architecture, used technologies, data-model design, user-interface design, coaching, work assignment
     technologies: WebLogic, Oracle, JSP, Servlet, EJB, JMS, Hibernate, Struts, Ant, CVS, XML
     url: https://www.smals.be/fr/realisations/projets/genesis
 - function: Functional Analyst
@@ -132,13 +132,13 @@ experiences:
   end_date: 2003-12
   projects:
   - name: Genesis
-    description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
-    role: Analyse des processus métiers et des besoins, interview des clients
+    description: Centralized dossier management application for social inspection services
+    role: Business process and requirements analysis, customer interviews
     technologies: UML, Catalyst
     url: https://www.smals.be/fr/realisations/projets/genesis
   - name: NatReg
-    description: Application web de consultation du registre national
-    role: Analyse des besoins, définition de l'interface utilisateur
+    description: Web application for consulting the national register
+    role: Requirements analysis, user-interface design
     technologies: UML, Catalyst
 studies:
 - school: Université Libre de Bruxelles
@@ -146,29 +146,23 @@ studies:
   faculty: Formation continue
   faculty_url: http://formcont.ulb.ac.be
   degrees:
-  - title: Certificat d'université en gestion de projets informatiques
+  - title: University certificate in IT project management
     url: http://formcont.ulb.ac.be/formation/viewSelected/277
     start_date: 2011
     end_date: 2012
 - school: Centrum voor Volwassenenonderwijs Meise-Jette
   school_url: http://www.cvomj.be
   degrees:
-  - title: Groupe de conversation en néerlandais
+  - title: Dutch conversation group
     start_date: 2008
     end_date: 2009
 - school: Université Libre de Bruxelles
   school_url: http://www.ulb.ac.be
-  faculty: Faculté des sciences appliquées / Ecole polytechnique
+  faculty: Faculty of Applied Sciences / Polytechnic School
   faculty_url: http://www.ulb.ac.be/facs/polytech
   degrees:
-  - title: Techniques d'intelligence artificielle dans un système distribué (Robocup 2002 Fukuoka, Japon)
-    start_date: TFE
-  - title: Obtention du titre d'Ingénieur Civil en Informatique avec distinction
+  - title: Obtained the title of Civil Engineer in Computer Science with distinction
     start_date: 2002
-  - title: Obtention du titre de Candidat Ingénieur Civil
-    start_date: 1999
-  - title: Obtention du certificat d'admission aux études d'Ingénieur Civil
-    start_date: 1997
 - school: Collège Saint-Pierre de Jette
   school_url: http://www.collegesaintpierrejette.be
   degrees:
