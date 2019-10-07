@@ -178,6 +178,9 @@ studies:
   - title: High school
     start_date: 1991
     end_date: 1997
+- school: Ecole fondamentale Congrès-Dachsbeck
+  school_url: https://instructionpublique.bruxelles.be/fr/etablissement/ecole-fondamentale-congres-dachsbeck
+  degrees:
   - title: Primary school
     start_date: 1985
     end_date: 1991
