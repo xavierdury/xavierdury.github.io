@@ -22,6 +22,8 @@ meta:
     url: https://linkedin.com/in/xavierdury
   - title: Resume in PDF format
     url: ../documents/cv.pdf
+  - title: GitHub
+    url: https://github.com/xavierdury
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -141,6 +143,12 @@ experiences:
     role: Requirements analysis, user-interface design
     technologies: UML, Catalyst
 studies:
+- school: Opleidingsinstituut van de Federale Overheid - Institut de Formation de l'Administration fédérale
+  school_url: https://www.ofoifa.belgium.be
+  degrees:
+  - title: Dutch writing & speaking (level B0-B1)
+    start_date: 2017
+    end_date: 2018
 - school: Université Libre de Bruxelles
   school_url: http://www.ulb.ac.be
   faculty: Formation continue
