@@ -20,10 +20,10 @@ meta:
   items:
   - title: LinkedIn
     url: https://linkedin.com/in/xavierdury
-  - title: Resume in PDF format
-    url: ../documents/cv.pdf
   - title: GitHub
     url: https://github.com/xavierdury
+  - title: Resume in PDF format
+    url: ../documents/cv.pdf
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -199,6 +199,16 @@ languages:
 - name: German
   level: Elementary proficiency
 skills:
+- group: Languages
+  items:
+  - name: French
+    level: expert
+  - name: Dutch
+    level: advanced
+  - name: English
+    level: advanced
+  - name: German
+    level: novice
 - group: Interests
   items:
   - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
