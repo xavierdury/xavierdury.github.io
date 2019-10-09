@@ -37,8 +37,8 @@ motivations:
   rest: le chef de projet que j'aurais voulu avoir
 experiences:
 - function: Java Team Leader / Architecte
-  company: Service des Pensions du Secteur Public (SdPSP)
-  company_url: http://www.sdpsp.be
+  company: Service Fédéral des Pensions (SFPD)
+  company_url: http://sfpd.fgov.be
   start_date: 2014-04
   projects:
   - name: Pension Portal
