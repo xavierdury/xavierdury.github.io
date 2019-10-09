@@ -2,7 +2,7 @@ name: Xavier Dury
 inception_year: 2002
 keywords: Xavier, Dury, Civil Engineer, Java, Brussels
 title: Ingénieur Civil en Informatique
-profile: Ingénieur Civil passionné d'informatique en général et de projets informatiques en particulier, j'ai pu exercer les rôles d'analyste fonctionnel, de développeur Java et d'architecte. Je souhaiterais désormais pouvoir m'orienter vers le rôle de chef de projet.
+profile: Je suis ingénieur civil avec plus de 15 ans d'expérience professionnelle sur des projets informatique (principalement en java), en tant qu'analyste, développeur et architecte. J'ai une bonne maîtrise des technologies et j'ai suivi une formation en gestion de projets à l'Université de Bruxelles. Je préfère travailler en tant qu'employée plutôt qu'en tant que consultant car j'aime comprendre le domain dans lequel je travaille et favorise les engagements à long terme sur les projects pour lesquels je peux participer à la conception, l'implémentation et la maintenance. J'ai tendance à travailler sur des projets qui profitentt à la communauté (soins de santé, sécurité sociale, transports publics, services publics/e-gouvernment, recherche scientifique, etc.). Je suis un grand partisan des solutions open-source pour lesquelles j'essaie de contribuer en retour.
 meta:
 - name: Contact
   items:
@@ -15,13 +15,15 @@ meta:
   - title: Nationalités belge et française
   - title: Né en 1979
   - title: Permis de conduire B
-  - title: Situé en périphérie bruxelloise
+  - title: Situé en région bruxelloise
 - name: Liens
   items:
   - title: LinkedIn
     url: https://linkedin.com/in/xavierdury
-  - title: CV en PDF
-    url: documents/cv.pdf
+  - title: GitHub
+    url: https://github.com/xavierdury
+  - title: English version
+    url: ./en/
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -42,7 +44,7 @@ experiences:
   - name: Pension Portal
     description: Application de centralisation et de gestion des données carrière du secteur public
     role: Java Team Leader, Architecte
-    technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Eclipse, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
+    technologies: JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum
 - function: Experienced Engineer
   company: AKKA Benelux
   company_url: http://www.akka-benelux.eu
@@ -141,12 +143,18 @@ experiences:
     role: Analyse des besoins, définition de l'interface utilisateur
     technologies: UML, Catalyst
 studies:
+- school: Institut de Formation de l'Administration fédérale
+  school_url: https://www.ofoifa.belgium.be
+  degrees:
+  - title: Néerlandais parlé et écrit (niveau B1-B2)
+    start_date: 2017
+    end_date: 2018
 - school: Université Libre de Bruxelles
   school_url: http://www.ulb.ac.be
   faculty: Formation continue
   faculty_url: http://formcont.ulb.ac.be
   degrees:
-  - title: Certificat d'université en gestion de projets informatiques
+  - title: Certificat d'université en gestion de projets informatiques (grande distinction)
     url: http://formcont.ulb.ac.be/formation/viewSelected/277
     start_date: 2011
     end_date: 2012
@@ -161,21 +169,15 @@ studies:
   faculty: Faculté des sciences appliquées / Ecole polytechnique
   faculty_url: http://www.ulb.ac.be/facs/polytech
   degrees:
-  - title: Techniques d'intelligence artificielle dans un système distribué (Robocup 2002 Fukuoka, Japon)
-    start_date: TFE
-  - title: Obtention du titre d'Ingénieur Civil en Informatique avec distinction
-    start_date: 2002
-  - title: Obtention du titre de Candidat Ingénieur Civil
-    start_date: 1999
-  - title: Obtention du certificat d'admission aux études d'Ingénieur Civil
+  - title: Maîtrise en Génie Civil en Informatique (distinction)
     start_date: 1997
+    end_date: 2002
 - school: Collège Saint-Pierre de Jette
   school_url: http://www.collegesaintpierrejette.be
   degrees:
-  - title: Obtention du certificat d'études secondaires
-    start_date: 1997
-  - title: Obtention du certificat d'études primaires
+  - title: Etudes secondaires
     start_date: 1991
+    end_date: 1997
 competitions:
 - name: Open Data Brussels Hackathon
   url: http://www.transformabxl.be/agenda/event/hackathon-open-data-brussels
@@ -194,16 +196,21 @@ languages:
 - name: Allemand
   level: Connaissance élémentaire
 skills:
-- group: Intérêts
+- group: Langues
   items:
-  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
-  - name: Open Source Software
-  - name: Rapid Application Development
-  - name: Clean Design
+  - name: Français
+    level: expert
+  - name: Néerlandais
+    level: advanced
+  - name: Anglais
+    level: advanced
+  - name: Allemand
+    level: novice
 - group: Design
   items:
   - name: UML
     abbr: Unified Modeling Language
+  - name: C4 Model
   - name: Patterns
   - name: Object-Oriented
   - name: Test-Driven
@@ -314,3 +321,10 @@ skills:
   - name: Oracle DB
   - name: WebLogic
   - name: OpenEJB / TomEE
+- group: Intérêts
+  items:
+  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
+  - name: Open Source Software
+  - name: Rapid Application Development
+  - name: Clean Design / Hexagonal Architecture
+  - name: Hypermedia / RESTful APIs

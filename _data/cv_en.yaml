@@ -12,7 +12,7 @@ meta:
     url: mailto:jobs@xavierdury.net
 - name: Personal details
   items:
-  - title: Belgian and French
+  - title: Belgian and French nationalities
   - title: Born in 1979
   - title: Driver license (category B)
   - title: Located in Brussels' area
@@ -22,8 +22,8 @@ meta:
     url: https://linkedin.com/in/xavierdury
   - title: GitHub
     url: https://github.com/xavierdury
-  - title: Resume in PDF format
-    url: ../documents/cv.pdf
+  - title: Version française
+    url: ../
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -146,7 +146,7 @@ studies:
 - school: Opleidingsinstituut van de Federale Overheid - Institut de Formation de l'Administration fédérale
   school_url: https://www.ofoifa.belgium.be
   degrees:
-  - title: Dutch writing & speaking (level B0-B1)
+  - title: Dutch writing & speaking (level B1-B2)
     start_date: 2017
     end_date: 2018
 - school: Université Libre de Bruxelles
@@ -154,7 +154,7 @@ studies:
   faculty: Formation continue
   faculty_url: http://formcont.ulb.ac.be
   degrees:
-  - title: University certificate in IT project management
+  - title: University certificate in IT project management (great distinction)
     url: http://formcont.ulb.ac.be/formation/viewSelected/277
     start_date: 2011
     end_date: 2012
@@ -169,7 +169,7 @@ studies:
   faculty: Faculty of Applied Sciences / Polytechnic School
   faculty_url: http://www.ulb.ac.be/facs/polytech
   degrees:
-  - title: Mastered as Civil Engineer in Computer Science (obtained with distinction)
+  - title: Master of Civil Engineering in Computer Science (distinction)
     start_date: 1997
     end_date: 2002
 - school: Collège Saint-Pierre de Jette
@@ -178,12 +178,6 @@ studies:
   - title: High school
     start_date: 1991
     end_date: 1997
-- school: Ecole fondamentale Congrès-Dachsbeck
-  school_url: https://instructionpublique.bruxelles.be/fr/etablissement/ecole-fondamentale-congres-dachsbeck
-  degrees:
-  - title: Primary school
-    start_date: 1985
-    end_date: 1991
 competitions:
 - name: Open Data Brussels Hackathon
   url: http://www.transformabxl.be/agenda/event/hackathon-open-data-brussels
@@ -212,13 +206,6 @@ skills:
     level: advanced
   - name: German
     level: novice
-- group: Interests
-  items:
-  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
-  - name: Open Source Software
-  - name: Rapid Application Development
-  - name: Clean Design / Hexagonal Architecture
-  - name: Hypermedia / RESTful APIs
 - group: Design
   items:
   - name: UML
@@ -334,3 +321,10 @@ skills:
   - name: Oracle DB
   - name: WebLogic
   - name: OpenEJB / TomEE
+- group: Interests
+  items:
+  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
+  - name: Open Source Software
+  - name: Rapid Application Development
+  - name: Clean Design / Hexagonal Architecture
+  - name: Hypermedia / RESTful APIs
