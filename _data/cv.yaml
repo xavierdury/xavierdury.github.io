@@ -2,7 +2,7 @@ name: Xavier Dury
 inception_year: 2002
 keywords: Xavier, Dury, Civil Engineer, Java, Brussels
 title: Ingénieur Civil en Informatique
-profile: Je suis ingénieur civil avec plus de 15 ans d'expérience professionnelle sur des projets informatique (principalement en java), en tant qu'analyste, développeur et architecte. J'ai une bonne maîtrise des technologies et j'ai suivi une formation en gestion de projets à l'Université de Bruxelles. Je préfère travailler en tant qu'employée plutôt qu'en tant que consultant car j'aime comprendre le domain dans lequel je travaille et favorise les engagements à long terme sur les projects pour lesquels je peux participer à la conception, l'implémentation et la maintenance. J'ai tendance à travailler sur des projets qui profitentt à la communauté (soins de santé, sécurité sociale, transports publics, services publics/e-gouvernment, recherche scientifique, etc.). Je suis un grand partisan des solutions open-source pour lesquelles j'essaie de contribuer en retour.
+profile: Je suis ingénieur civil avec plus de 15 ans d'expérience professionnelle sur des projets informatique (principalement en java), en tant qu'analyste, développeur et architecte. J'ai une bonne maîtrise des technologies et j'ai suivi une formation en gestion de projets à l'Université de Bruxelles. Je préfère travailler en tant qu'employé plutôt qu'en tant que consultant car j'aime comprendre le domaine dans lequel je travaille et favorise les engagements à long terme sur les projects pour lesquels je peux participer à la conception, l'implémentation et la maintenance. J'ai tendance à travailler sur des projets qui profitent à la communauté (soins de santé, sécurité sociale, transports publics, services publics/e-gouvernment, recherche scientifique, etc.). Je suis un grand partisan des solutions open-source pour lesquelles j'essaie de contribuer en retour.
 meta:
 - name: Contact
   items:
@@ -24,6 +24,8 @@ meta:
     url: https://github.com/xavierdury
   - title: English version
     url: ./en/
+  - title: PDF
+    url: ./documents/cv.fr.pdf
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)

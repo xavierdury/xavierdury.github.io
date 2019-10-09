@@ -24,6 +24,8 @@ meta:
     url: https://github.com/xavierdury
   - title: Version française
     url: ../
+  - title: PDF
+    url: ../documents/cv.en.pdf
 motivations:
 - verb: Apprendre
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
@@ -146,7 +148,7 @@ studies:
 - school: Opleidingsinstituut van de Federale Overheid - Institut de Formation de l'Administration fédérale
   school_url: https://www.ofoifa.belgium.be
   degrees:
-  - title: Dutch writing & speaking (level B1-B2)
+  - title: Dutch writing and speaking (level B1-B2)
     start_date: 2017
     end_date: 2018
 - school: Université Libre de Bruxelles
