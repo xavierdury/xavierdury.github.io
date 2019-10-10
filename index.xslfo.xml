@@ -20,9 +20,9 @@
 							<fo:block font-size="18pt">{{ site.data.cv.title }}</fo:block>
 						</fo:table-cell>
 						<fo:table-cell text-align="right">
-							<fo:block>jobs@xavierdury.net</fo:block>
+							<fo:block><fo:basic-link external-destination="url('http://xavierdury.net')" color="blue" text-decoration="underline">xavierdury.net</fo:basic-link></fo:block>
+							<fo:block><fo:basic-link external-destination="url('mailto:jobs@xavierdury.net')" color="blue" text-decoration="underline">jobs@xavierdury.net</fo:basic-link></fo:block>
 							<fo:block>+32-(0)486-535020</fo:block>
-							<fo:block>xavierdury.net</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 
