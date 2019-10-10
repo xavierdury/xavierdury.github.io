@@ -4,14 +4,14 @@
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
 	<fo:layout-master-set>
 		<fo:simple-page-master master-name="A4">
-			<fo:region-body />
+			<fo:region-body margin="10mm"/>
 		</fo:simple-page-master>
 	</fo:layout-master-set>
 	<fo:page-sequence master-reference="A4" font="11pt Calibri">
 		<fo:flow flow-name="xsl-region-body">
 			<fo:table table-layout="fixed" border-collapse="separate" border-spacing="2mm">
-				<fo:table-column column-width="35mm"/>
-				<fo:table-column column-width="115mm"/>
+				<fo:table-column column-width="30mm"/>
+				<fo:table-column column-width="100mm"/>
 				<fo:table-column column-width="60mm"/>
 				<fo:table-body>
 					<fo:table-row>
@@ -22,7 +22,7 @@
 						<fo:table-cell text-align="right">
 							<fo:block>jobs@xavierdury.net</fo:block>
 							<fo:block>+32-(0)486-535020</fo:block>
-							<fo:block>www.xavierdury.net</fo:block>
+							<fo:block>xavierdury.net</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 
