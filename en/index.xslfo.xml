@@ -57,9 +57,9 @@
 							<fo:block font-weight="bold" text-align="right">{{ project.name }}</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
-							<fo:block>{{ project.description }}</fo:block>
-							<fo:block>{{ project.role }}</fo:block>
-							<fo:block>{{ project.technologies }}</fo:block>
+							<fo:block text-align="justify">{{ project.description }}</fo:block>
+							<fo:block text-align="justify">{{ project.role }}</fo:block>
+							<fo:block text-align="justify">{{ project.technologies }}</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
 					{% endfor %}
@@ -122,9 +122,9 @@
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
 							<fo:block text-align="right">
-								expert<fo:inline font-size="7pt">***</fo:inline>
-								advanced<fo:inline font-size="7pt">**</fo:inline>
-								novice<fo:inline font-size="7pt">*</fo:inline>
+								expert<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>
+								advanced<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>
+								novice<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>
 							</fo:block>
 						</fo:table-cell>
 					</fo:table-row>
@@ -134,15 +134,15 @@
 							<fo:block font-weight="bold" text-align="right">{{ skill.group }}</fo:block>
 						</fo:table-cell>
 						<fo:table-cell number-columns-spanned="2">
-							<fo:block>
+							<fo:block text-align="justify">
 							{% for item in skill.items %}
 								{% case item.level %}
 									{% when "expert" %}
-										{{ item.name }}<fo:inline font-size="7pt">***</fo:inline>{% if forloop.last == false %},{% endif %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
 									{% when "advanced" %}
-										{{ item.name }}<fo:inline font-size="7pt">**</fo:inline>{% if forloop.last == false %},{% endif %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
 									{% when "novice" %}
-										{{ item.name }}<fo:inline font-size="7pt">*</fo:inline>{% if forloop.last == false %},{% endif %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
 									{% else %}
 										{{ item.name }}{% if forloop.last == false %},{% endif %}
 								{% endcase %}
