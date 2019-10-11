@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="A4">
+			<fo:region-body margin="10mm"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="A4" font="11pt Calibri">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:table table-layout="fixed">
+				<fo:table-column column-width="30mm"/>
+				<fo:table-column column-width="100mm"/>
+				<fo:table-column column-width="60mm"/>
+				<fo:table-body>
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block font-weight="bold" font-size="28pt">{{ site.data[page.doc].name }}</fo:block>
+							<fo:block font-size="18pt">{{ site.data[page.doc].title }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" text-align="right">
+							<fo:block><fo:basic-link external-destination="url('{{ site.data[page.doc].link }}')" color="blue" text-decoration="underline">xavierdury.net</fo:basic-link></fo:block>
+							<fo:block><fo:basic-link external-destination="url('mailto:jobs@xavierdury.net')" color="blue" text-decoration="underline">jobs@xavierdury.net</fo:basic-link></fo:block>
+							<fo:block>+32-(0)486-535020</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">{{ site.data[page.doc].translations.profile }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3" text-align="justify">
+							<fo:block>{{ site.data[page.doc].profile }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">{{ site.data[page.doc].translations.experiences }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for experience in site.data[page.doc].experiences %}
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">{{ experience.function }} @ {{ experience.company }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[{{ experience.start_date }}&#8212;{{ experience.end_date | default: site.data[page.doc].translations.today }}]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for project in experience.projects %}
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">{{ project.name }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">{{ project.description }}</fo:block>
+							<fo:block text-align="justify">{{ project.role }}</fo:block>
+							<fo:block text-align="justify">{{ project.technologies }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% endfor %}
+					{% endfor %}
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">{{ site.data[page.doc].translations.studies }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for study in site.data[page.doc].studies %}
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">{{ study.school}} {% if study.faculty %} ({{ study.faculty }}){% endif %}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for degree in study.degrees %}
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">{{ degree.start_date }}{% if degree.end_date != nil %}&#8212;{{ degree.end_date }}{% endif %}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>{{ degree.title }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% endfor %}
+					{% endfor %}
+
+					<!--
+					<fo:table-row>
+						<fo:table-cell number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt" text-decoration="underline">Compétitions</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for competition in site.data[page.doc].competitions %}
+					<fo:table-row>
+						<fo:table-cell number-columns-spanned="2">
+							<fo:block text-decoration="underline">{{ competition.name }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell>
+							<fo:block font-style="italic" text-align="right">[{{ competition.start_date }}&#8212;{{ competition.end_date }}]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for achievement in competition.achievements %}
+					<fo:table-row>
+						<fo:table-cell>
+							<fo:block font-weight="bold" text-align="right">{{ achievement.rank }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell number-columns-spanned="2">
+							<fo:block>{{ achievement.title }}</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% endfor %}
+					{% endfor %}
+				-->
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" font-size="14pt">{{ site.data[page.doc].translations.skills }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="right">
+								{{ site.data[page.doc].translations.expert }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>
+								{{ site.data[page.doc].translations.advanced }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>
+								{{ site.data[page.doc].translations.novice }}<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% for skill in site.data[page.doc].skills %}
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">{{ skill.group }}</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							{% for item in skill.items %}
+								{% case item.level %}
+									{% when "expert" %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
+									{% when "advanced" %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
+									{% when "novice" %}
+										{{ item.name }}<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>{% if forloop.last == false %},{% endif %}
+									{% else %}
+										{{ item.name }}{% if forloop.last == false %},{% endif %}
+								{% endcase %}
+							{% endfor %}
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					{% endfor %}
+
+				</fo:table-body>
+			</fo:table>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="A4">
+			<fo:region-body margin="10mm"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="A4" font="11pt Calibri">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:table table-layout="fixed">
+				<fo:table-column column-width="30mm"/>
+				<fo:table-column column-width="100mm"/>
+				<fo:table-column column-width="60mm"/>
+				<fo:table-body>
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block font-weight="bold" font-size="28pt">Xavier Dury</fo:block>
+							<fo:block font-size="18pt">Civil Engineer in Computer Science</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" text-align="right">
+							<fo:block><fo:basic-link external-destination="url('http://xavierdury.net/en/')" color="blue" text-decoration="underline">xavierdury.net</fo:basic-link></fo:block>
+							<fo:block><fo:basic-link external-destination="url('mailto:jobs@xavierdury.net')" color="blue" text-decoration="underline">jobs@xavierdury.net</fo:basic-link></fo:block>
+							<fo:block>+32-(0)486-535020</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">Profile</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3" text-align="justify">
+							<fo:block>I am a civil engineer with more than 15 years of professional experience working on IT projects (mostly in Java) as analyst, developer and architect. I have a good grasp of technology and trained for project management at the University of Brussels. I prefer working as an employee rather than a contractor as I really like to understand the domain I am working in and favor long-term commitment on projects where I can participate in design, implementation and maintenance. I lean toward working on meaningful projects which benefit the community (healthcare, social security, public transportation, public services/e-government, scientific research, etc.). I am a big proponent of open source solutions for which I try to contribute back.</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">Work experience</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Java Team Leader / Architect @ Federal Pension Service (SFPD)</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2014-04&#8212;today]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Pension Portal</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Public sector career data centralization and management application</fo:block>
+							<fo:block text-align="justify">Java Team Leader, Architect</fo:block>
+							<fo:block text-align="justify">JavaEE 6 (JSF, JPA, JMS, CDI, EJB), FOP, Maven, AngularJS, Git, Gerrit, JBossAS 7, Oracle, WS, Scrum</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Experienced Engineer @ AKKA Benelux</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2013-11&#8212;2014-03]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">ETCS P.A. Tools</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Application supporting the implementation of the ETCS system on the Belgian rail network</fo:block>
+							<fo:block text-align="justify">Business modeler</fo:block>
+							<fo:block text-align="justify">JPA (EclipseLink), UML, NetBeans, Subversion, Domain-Driven Design</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Senior Java EE Consultant @ Aubay</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2007-06&#8212;2013-10]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Capelo</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Application for collecting and validating civil servants' career data</fo:block>
+							<fo:block text-align="justify">Architect</fo:block>
+							<fo:block text-align="justify">JPA, EJB 3.0, Struts 1.x, JAX-WS, GWT, Maven, JBoss, Oracle, WebLogic, Subversion</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Argo</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Application for centralizing and managing employee career data</fo:block>
+							<fo:block text-align="justify">Senio developer (v1.0), Architect (v2.0)</fo:block>
+							<fo:block text-align="justify">JPA, EJB 3.0, JBoss, WS, Oracle, Spring WebFlow, BPEL, Subversion</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Carat</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Application for managing test configurations performed on electronic boxes embedded on satellites</fo:block>
+							<fo:block text-align="justify">Analyse, design, data-model refactoring, coaching</fo:block>
+							<fo:block text-align="justify">Swing, JGoodies, Java Web Start, Ant, JPA, MySQL, ClearCase</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Java EE Lead Architect @ Smals</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2005-01&#8212;2007-05]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Limosa</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Web application for the declaration of posting of foreign workers on Belgian territory</fo:block>
+							<fo:block text-align="justify">Global architecture, coaching, security</fo:block>
+							<fo:block text-align="justify">Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">STTS</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Web application for the management of social telephone tariff grants for BIPT</fo:block>
+							<fo:block text-align="justify">Global architecture, coaching</fo:block>
+							<fo:block text-align="justify">Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Primaweb</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Web application for the management of social integration income grants and the Fuel Fund (CPAS)</fo:block>
+							<fo:block text-align="justify">Global architecture, coaching</fo:block>
+							<fo:block text-align="justify">Hibernate, Spring, Struts 1.x, Axis, WebLogic, Oracle, Ant, CVS</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">iBoss</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Web application for the management of labour audit files</fo:block>
+							<fo:block text-align="justify">Global architecture, coaching</fo:block>
+							<fo:block text-align="justify">Hibernate, Spring, Struts 1.x, JMS, Axis, WebLogic, Oracle, Maven, CVS</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Other</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Design of project architectures, choice of technologies to be implemented, structure of the project tree, design of prototypes, development of critical parts, supervision and coaching of developers (code reviews, peer-programming, mini-courses, guidelines documents)</fo:block>
+							<fo:block text-align="justify">Development of generic project models and reusable components</fo:block>
+							<fo:block text-align="justify">Design of a reference dossier management application serving as a basis for all the above-mentioned projects, emulation of a COBOL mainframe terminal in Swing, standardization of the basic types of social security (VAT numbers, national register numbers, etc.), standardization of the development of internal basic services</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Java EE Architect Candidate @ Smals</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2004-01&#8212;2004-12]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Genesis</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Centralized dossier management application for social inspection services</fo:block>
+							<fo:block text-align="justify">Application architecture, used technologies, data-model design, user-interface design, coaching, work assignment</fo:block>
+							<fo:block text-align="justify">WebLogic, Oracle, JSP, Servlet, EJB, JMS, Hibernate, Struts, Ant, CVS, XML</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-decoration="underline">Functional Analyst @ Smals</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm">
+							<fo:block font-style="italic" text-align="right">[2003-04&#8212;2003-12]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Genesis</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Centralized dossier management application for social inspection services</fo:block>
+							<fo:block text-align="justify">Business process and requirements analysis, customer interviews</fo:block>
+							<fo:block text-align="justify">UML, Catalyst</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">NatReg</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">Web application for consulting the national register</fo:block>
+							<fo:block text-align="justify">Requirements analysis, user-interface design</fo:block>
+							<fo:block text-align="justify">UML, Catalyst</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt">Education</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">Opleidingsinstituut van de Federale Overheid - Institut de Formation de l'Administration fédérale </fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">2017&#8212;2018</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>Dutch writing and speaking (level B1-B2)</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">Université Libre de Bruxelles  (Formation continue)</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">2011&#8212;2012</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>University certificate in IT project management (great distinction)</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">Centrum voor Volwassenenonderwijs Meise-Jette </fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">2008&#8212;2009</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>Dutch conversation group</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">Université Libre de Bruxelles  (Faculty of Applied Sciences / Polytechnic School)</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">1997&#8212;2002</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>Master of Civil Engineering in Computer Science (distinction)</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm" number-columns-spanned="3">
+							<fo:block text-decoration="underline">Collège Saint-Pierre de Jette </fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">1991&#8212;1997</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block>High school</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+
+					<!--
+					<fo:table-row>
+						<fo:table-cell number-columns-spanned="3">
+							<fo:block font-weight="bold" font-size="14pt" text-decoration="underline">Compétitions</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell number-columns-spanned="2">
+							<fo:block text-decoration="underline">Open Data Brussels Hackathon</fo:block>
+						</fo:table-cell>
+						<fo:table-cell>
+							<fo:block font-style="italic" text-align="right">[2014-10-17&#8212;2014-10-18]</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell>
+							<fo:block font-weight="bold" text-align="right">Laureate</fo:block>
+						</fo:table-cell>
+						<fo:table-cell number-columns-spanned="2">
+							<fo:block>Price of the prototype crossing the largest number of data sets</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					
+				-->
+
+					<fo:table-row border-after-width="0.25mm" border-after-style="solid" border-after-color="#777">
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" font-size="14pt">Skills</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="right">
+								expert<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>
+								advanced<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>
+								novice<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Languages</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										French<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Dutch<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										English<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										German<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>
+									
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Design</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										UML,
+								
+							
+								
+										C4 Model,
+								
+							
+								
+										Patterns,
+								
+							
+								
+										Object-Oriented,
+								
+							
+								
+										Test-Driven,
+								
+							
+								
+										Database Design,
+								
+							
+								
+										Aspect-Oriented,
+								
+							
+								
+										Domain-Driven,
+								
+							
+								
+										Event-Driven
+								
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Technologies</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										Java<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Hibernate<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Spring<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Struts<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										GWT<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JUnit<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Swing<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Servlet<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										EJB<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JPA<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										CDI<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JMS<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JSF<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JAX-RS<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JAX-WS<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										SQL<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JavaScript<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										HTML<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										CSS<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Python<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										XML<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										XSLT<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										XSD<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>
+									
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Tools</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										Eclipse<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										IntelliJ<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										NetBeans<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										Ant<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Maven<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Subversion<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										CVS<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Git<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										JIRA<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										Mantis<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										Trac<fo:inline vertical-align="super" font-size="4pt">&#9679;</fo:inline>,
+									
+							
+								
+										Jenkins<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										Gerrit<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>,
+									
+							
+								
+										GitLab<fo:inline vertical-align="super" font-size="4pt">&#9679;&#9679;</fo:inline>
+									
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Servers</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										JBoss / WildFly,
+								
+							
+								
+										Tomcat,
+								
+							
+								
+										Apache HTTPd,
+								
+							
+								
+										MySQL,
+								
+							
+								
+										Oracle DB,
+								
+							
+								
+										WebLogic,
+								
+							
+								
+										OpenEJB / TomEE
+								
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+					<fo:table-row>
+						<fo:table-cell padding="1mm">
+							<fo:block font-weight="bold" text-align="right">Interests</fo:block>
+						</fo:table-cell>
+						<fo:table-cell padding="1mm" number-columns-spanned="2">
+							<fo:block text-align="justify">
+							
+								
+										Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI),
+								
+							
+								
+										Open Source Software,
+								
+							
+								
+										Rapid Application Development,
+								
+							
+								
+										Clean Design / Hexagonal Architecture,
+								
+							
+								
+										Hypermedia / RESTful APIs
+								
+							
+							</fo:block>
+						</fo:table-cell>
+					</fo:table-row>
+					
+
+				</fo:table-body>
+			</fo:table>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

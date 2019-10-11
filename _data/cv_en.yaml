@@ -3,6 +3,16 @@ inception_year: 2002
 keywords: Xavier, Dury, Civil Engineer, Java, Brussels
 title: Civil Engineer in Computer Science
 profile: I am a civil engineer with more than 15 years of professional experience working on IT projects (mostly in Java) as analyst, developer and architect. I have a good grasp of technology and trained for project management at the University of Brussels. I prefer working as an employee rather than a contractor as I really like to understand the domain I am working in and favor long-term commitment on projects where I can participate in design, implementation and maintenance. I lean toward working on meaningful projects which benefit the community (healthcare, social security, public transportation, public services/e-government, scientific research, etc.). I am a big proponent of open source solutions for which I try to contribute back.
+translations:
+  profile: Profile
+  experiences: Work experience
+  studies: Education
+  skills: Skills
+  advanced: advanced
+  expert: expert
+  novice: novice
+  today: today
+link: http://xavierdury.net/en/
 meta:
 - name: Contact
   items:
