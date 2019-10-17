@@ -15,7 +15,7 @@
 					<fo:table-row>
 						<fo:table-cell padding="1mm" number-columns-spanned="2">
 							<fo:block font-weight="bold" font-size="28pt">{{ site.data[page.doc].name }}</fo:block>
-							<fo:block font-size="18pt">{{ site.data[page.doc].title }}</fo:block>
+							<fo:block font-style="italic" font-size="18pt">{{ site.data[page.doc].title }}</fo:block>
 						</fo:table-cell>
 						<fo:table-cell padding="1mm" text-align="right">
 							<fo:block><fo:basic-link external-destination="url('{{ site.data[page.doc].link }}')" color="blue" text-decoration="underline">xavierdury.net</fo:basic-link></fo:block>
