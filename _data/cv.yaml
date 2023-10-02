@@ -243,7 +243,7 @@ skills:
   items:
   - name: Java
     level: expert
-  - name: Spring (classic/boot)
+  - name: Spring (classic / boot)
     level: expert
   - name: Hibernate
     level: expert
