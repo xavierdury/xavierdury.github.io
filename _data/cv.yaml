@@ -319,7 +319,7 @@ skills:
   - name: GitLab
     level: advanced
   - name: Jenkins
-    lavel: advanced
+    level: advanced
 - group: Serveurs
   items:
   - name: JBoss / WildFly
