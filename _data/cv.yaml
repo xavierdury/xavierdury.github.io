@@ -41,13 +41,22 @@ motivations:
   rest: au contact de personnes qualifiées (développeurs, analystes, chefs de projet...)
 - verb: Découvrir
   rest: de nouveaux domaines en recherche de solutions informatiques (finance, industrie...)
-- verb: Progresser
-  rest: dans les différentes étapes de ma carrière et m'orienter vers le rôle de chef de projet
 - verb: Investir
   rest: mon temps et mon énergie dans une société dans laquelle je m'identifie
-- verb: Etre
-  rest: le chef de projet que j'aurais voulu avoir
 experiences:
+- function: Architecte Java
+  company: Office National des Vacances Annuelles (ONVA)
+  company_url: https://www.onva.be
+  start_date: 2023-03
+  projects:
+  - name: Holidays Network
+    description: Application d'échange de données entre caisses de vacances
+    role: Architecte
+    technologies: JavaEE (JSF, JPA, EJB), Maven, Git, Wildfly, WS, Scrum
+  - name: Ambi-Caisse
+    description: Application de gestion de la caisse de vacances
+    role: Architecte
+    technologies: Spring Boot, REST, WebSockets, Angular, Gradle, Scrum
 - function: Java Team Leader / Architecte
   company: Service Fédéral des Pensions (SFPD)
   company_url: http://sfpd.fgov.be
@@ -234,6 +243,8 @@ skills:
   items:
   - name: Java
     level: expert
+  - name: Spring (classic/boot)
+    level: expert
   - name: Hibernate
     level: expert
   - name: Spring
@@ -283,6 +294,12 @@ skills:
     abbr: Cascading StyleSheet
   - name: Python
     level: novice
+  - name: Javascript
+    level: expert
+  - name: Javascript
+    level: advanced
+  - name: Angular
+    level: advanced
   - name: XML
     level: expert
     abbr: eXtensible Markup Language
@@ -294,28 +311,15 @@ skills:
     abbr: XML Schema Definition
 - group: Outils
   items:
-  - name: Eclipse
-    level: expert
   - name: IntelliJ
-    level: novice
-  - name: NetBeans
-    level: novice
-  - name: Ant
     level: expert
+  - name: Gradle
+    level: novice
   - name: Maven
     level: expert
-  - name: Subversion
-    level: advanced
-  - name: CVS
-    level: advanced
-    abbr: Concurrent Versions System
   - name: Git
     level: advanced
   - name: JIRA
-    level: novice
-  - name: Mantis
-    level: novice
-  - name: Trac
     level: novice
   - name: Jenkins
     level: advanced
@@ -323,6 +327,8 @@ skills:
     level: advanced
   - name: GitLab
     level: advanced
+  - name: Jenkins
+    lavel: advanced
 - group: Serveurs
   items:
   - name: JBoss / WildFly
@@ -333,9 +339,10 @@ skills:
   - name: Oracle DB
   - name: WebLogic
   - name: OpenEJB / TomEE
+  - name: Keycloak
 - group: Intérêts
   items:
-  - name: Project Management (Agile, Scrum, Lean, Kanban, Prince2, PMI)
+  - name: Agile
   - name: Open Source Software
   - name: Rapid Application Development
   - name: Clean Design / Hexagonal Architecture
