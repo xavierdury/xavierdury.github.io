@@ -47,7 +47,7 @@ experiences:
 - function: Architecte Java
   company: Office National des Vacances Annuelles (ONVA)
   company_url: https://www.onva.be
-  start_date: 2023-04
+  start_date: 2023/04
   projects:
   - name: Holidays Network
     description: Application d'échange de données entre caisses de vacances
@@ -56,12 +56,12 @@ experiences:
   - name: Ambi-Caisse
     description: Application de gestion de la caisse de vacances
     role: Architecte
-    technologies: Spring Boot, REST, WebSockets, Angular, Gradle, Scrum
+    technologies: Spring Boot, REST, WebSockets, Angular, NgRx, Gradle, Scrum
 - function: Java Team Leader / Architecte
   company: Service Fédéral des Pensions (SFPD)
   company_url: http://sfpd.fgov.be
-  start_date: 2014-04
-  end_date: 2023-03
+  start_date: 2014/04
+  end_date: 2023/03
   projects:
   - name: Pension Portal
     description: Application de centralisation et de gestion des données carrière du secteur public
@@ -70,8 +70,8 @@ experiences:
 - function: Experienced Engineer
   company: AKKA Benelux
   company_url: http://www.akka-benelux.eu
-  start_date: 2013-11
-  end_date: 2014-03
+  start_date: 2013/11
+  end_date: 2014/03
   projects:
   - name: ETCS P.A. Tools
     description: Application supportant la mise en place du système ETCS sur le réseau ferroviaire belge
@@ -82,8 +82,8 @@ experiences:
 - function: Senior Java EE Consultant
   company: Aubay
   company_url: http://www.aubay.be
-  start_date: 2007-06
-  end_date: 2013-10
+  start_date: 2007/06
+  end_date: 2013/10
   projects:
   - name: Capelo
     description: Application de validation des données carrière des fonctionnaires
@@ -109,8 +109,8 @@ experiences:
 - function: Java EE Lead Architect
   company: Smals
   company_url: http://www.smals.be
-  start_date: 2005-01
-  end_date: 2007-05
+  start_date: 2005/01
+  end_date: 2007/05
   projects:
   - name: Limosa
     description: Application web pour la déclaration de détachement de travailleurs étrangers sur le territoire belge
@@ -141,8 +141,8 @@ experiences:
 - function: Java EE Architect Candidate
   company: Smals
   company_url: http://www.smals.be
-  start_date: 2004-01
-  end_date: 2004-12
+  start_date: 2004/01
+  end_date: 2004/12
   projects:
   - name: Genesis
     description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
@@ -152,8 +152,8 @@ experiences:
 - function: Functional Analyst
   company: Smals
   company_url: http://www.smals.be
-  start_date: 2003-04
-  end_date: 2003-12
+  start_date: 2003/04
+  end_date: 2003/12
   projects:
   - name: Genesis
     description: Application centralisée de gestion de dossiers pour les services d'inspection sociale
