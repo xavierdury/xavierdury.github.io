@@ -292,6 +292,10 @@ skills:
     level: advanced
   - name: Angular
     level: advanced
+  - name: RxJS
+    level: advanced
+  - name: NgRx
+    level: advanced
   - name: XML
     level: expert
     abbr: eXtensible Markup Language
