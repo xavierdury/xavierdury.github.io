@@ -61,6 +61,7 @@ experiences:
   company: Service Fédéral des Pensions (SFPD)
   company_url: http://sfpd.fgov.be
   start_date: 2014-04
+  end_date: 2023-03
   projects:
   - name: Pension Portal
     description: Application de centralisation et de gestion des données carrière du secteur public
