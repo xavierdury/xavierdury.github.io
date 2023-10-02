@@ -247,13 +247,6 @@ skills:
     level: expert
   - name: Hibernate
     level: expert
-  - name: Spring
-    level: expert
-  - name: Struts
-    level: expert
-  - name: GWT
-    level: advanced
-    abbr: Google Web Toolkit
   - name: JUnit
     level: expert
   - name: Swing
@@ -284,8 +277,6 @@ skills:
   - name: SQL
     level: expert
     abbr: Structured Query Language
-  - name: JavaScript
-    level: advanced
   - name: HTML
     level: expert
     abbr: HyperText Markup Language
@@ -294,9 +285,9 @@ skills:
     abbr: Cascading StyleSheet
   - name: Python
     level: novice
-  - name: Javascript
+  - name: JavaScript
     level: expert
-  - name: Javascript
+  - name: TypeScript
     level: advanced
   - name: Angular
     level: advanced
