@@ -25,7 +25,7 @@ meta:
   - title: Nationalités belge et française
   - title: Né en 1979
   - title: Permis de conduire B
-  - title: Situé en région bruxelloise
+  - title: Situé en périphérie bruxelloise
 - name: Liens
   items:
   - title: LinkedIn
@@ -47,7 +47,7 @@ experiences:
 - function: Architecte Java
   company: Office National des Vacances Annuelles (ONVA)
   company_url: https://www.onva.be
-  start_date: 2023-03
+  start_date: 2023-04
   projects:
   - name: Holidays Network
     description: Application d'échange de données entre caisses de vacances
