@@ -339,6 +339,7 @@ skills:
   - name: Agile
   - name: Open Source Software
   - name: Rapid Application Development
-  - name: Clean Design / Hexagonal Architecture
+  - name: Clean Design / Hexagonal Architecture / Ports and Adapters Architecture
   - name: Hypermedia / RESTful APIs
   - name: VueJS
+  - name: HTMX
