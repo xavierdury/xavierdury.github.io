@@ -296,6 +296,9 @@ skills:
     level: advanced
   - name: NgRx
     level: advanced
+  - name: JSON
+    level: expert
+    abbr: JavaScript Object Notation
   - name: XML
     level: expert
     abbr: eXtensible Markup Language
