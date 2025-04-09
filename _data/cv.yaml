@@ -174,10 +174,10 @@ studies:
 - school: Université Libre de Bruxelles
   school_url: http://www.ulb.ac.be
   faculty: Formation continue
-  faculty_url: http://formcont.ulb.ac.be
+  faculty_url: https://web.archive.org/web/20120618002658/https://formcont.ulb.ac.be/
   degrees:
   - title: Certificat d'université en gestion de projets informatiques (grande distinction)
-    url: http://formcont.ulb.ac.be/formation/viewSelected/277
+    url: https://web.archive.org/web/20120611050126/http://formcont.ulb.ac.be/formation/viewSelected/277
     start_date: 2011
     end_date: 2012
 - school: Centrum voor Volwassenenonderwijs Meise-Jette
