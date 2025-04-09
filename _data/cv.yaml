@@ -52,7 +52,7 @@ experiences:
   - name: Holidays Network
     description: Application d'échange de données entre caisses de vacances
     role: Architecte
-    technologies: Spring Boot, REST, WebSockets, Angular, NgRx, Gradle, Scrum, Keycloak Apache Camel
+    technologies: Spring Boot, REST, WebSockets, Angular, NgRx, Gradle, Scrum, Keycloak, Apache Camel
   - name: Ambi-Caisse
     description: Application de gestion de la caisse de vacances
     role: Architecte
@@ -251,6 +251,8 @@ skills:
   - name: JUnit
     level: expert
   - name: Swing
+    level: advanced
+  - name: Apache Camel
     level: advanced
   - name: Servlet
     level: expert
